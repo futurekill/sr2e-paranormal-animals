@@ -1,16 +1,17 @@
 # Needs Capture
 
-Stat-block cells / conventions to confirm against a high-res photo of the
-physical book. Clear each as it's resolved.
+Conventions / cells to confirm against a high-res photo of the physical book.
 
-## PAE dual-value notation ("X/Y") — NEEDS A RULING
-Some critters list an attribute as two numbers, e.g. the **Abrams Lobster**
-(book p.9): Body **5/3**, Intelligence **1/4**. Working hypothesis: the Body
-"5/3" is Body / Hardened-Armor rating (the lobster has the Hardened Armor power),
-and the second value is a secondary/effective rating. This recurs on many
-critters, so it should be pinned down (check the book's "Game Information /
-Reading the Stat Block" section) before transcribing the bestiary in bulk.
-Until then, dual-value critters are deferred.
+## PAE attribute notation — partly resolved
+- **Quickness "N×M"** = Quickness N with a ground movement multiplier ×M
+  (run = Q×M). A separate flying/swimming multiplier may appear in Notes
+  (e.g. Aitvaras: Q 6×3 ground, ×7 flying). RESOLVED.
+- **Body "N/A"** = Body N with **Hardened Armor A** (core p.218: hardened-armor
+  creatures are rated in points; the slash appends that rating). The generator
+  should map A → armor.ballistic/impact. RESOLVED.
+- **Intelligence "1/4"** (Abrams Lobster, p.9) — the second value has no obvious
+  paired meaning. STILL OPEN: confirm against the book's stat-block legend or a
+  photo before transcribing dual-Int critters. Use the first value (1) meanwhile.
 
 ## Critters read & verified
-- Aitvaras (p.16) — clean, in pack.
+- Aitvaras (p.16) — in pack.
