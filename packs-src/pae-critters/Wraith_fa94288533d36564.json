@@ -1,0 +1,143 @@
+{
+  "_id": "fa94288533d36564",
+  "name": "Wraith",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A malevolent free spirit (Umbra metuculosus) born of violence, haunting the places where it died and driving the living to harm one another.</p><p><strong>Powers:</strong> Confusion (Zone ×2), Fear (Zone ×2), Immunity to Pathogens, Immunity to Poisons, Influence (Zone ×2), Magical Resistance, Magic Sense, Manifestation</p><p><strong>Weaknesses:</strong> None known</p><p><em>Attacks: Special (harm via Influence). Habitat: Sites of violence, rural or urban. Range: Throughout Europe. Acts as a free spirit (Grimoire II) with a Spirit Energy Rating: it starts at 0 and rises 1 per box of Stun/Physical damage a victim under its Influence inflicts on another, up to 2× its Essence. Dual-natured (Essence 12 astral). PAE p.111.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 12,
+      "mod": 0,
+      "value": 12,
+      "racial": 0
+    },
+    "strength": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 7,
+      "mod": 0,
+      "value": 7,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "essence": {
+      "value": 12,
+      "max": 12
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 7
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 7,
+      "dice": 1,
+      "mod": 0,
+      "value": 7
+    },
+    "threatRating": 8,
+    "movement": {
+      "walk": 12,
+      "run": 36
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Wraith",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!fa94288533d36564"
+}

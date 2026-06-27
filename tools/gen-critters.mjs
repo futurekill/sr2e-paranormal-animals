@@ -606,6 +606,63 @@ const CRITTERS = [
     habitat: "Wide range of damp land terrains",
     range: "Most of southern Europe",
     notes: "Venom secondary effect: Body Test (TN = the spider's Essence); failure makes the victim jerky and uncoordinated for [Essence]D6 turns (a 'dancing spell'), repeating until they score 1+ successes on the Body Test at its end. Each dancing spell deals 6L Stun. Book Strength 0, Intelligence 1/3."
+  },
+
+  // Batch 11 — V/W (book p.105–113); the end of the bestiary.
+  {
+    name: "Vampiric Pawn", page: 105,
+    b: 3, q: 3, moveMult: 3, s: 4, c: 3, i: 3, w: 5, e: 2, r: 3,
+    attacks: "Humanoid",
+    powers: "Immunity to Age, Immunity to Normal Weapons",
+    weak: "Dietary Requirement (Essence from its vampire/nosferatu master), Essence Loss",
+    desc: "A thrall (no accepted taxonomy) made when a vampire or nosferatu drains a victim's Essence to 0 and feeds it their blood. It keeps its former self's attributes and serves its master.",
+    habitat: "With its vampiric/nosferatu master",
+    range: "Throughout Europe",
+    notes: "Attributes are the original character's, with minimums Strength 4 and Willpower 5; current Essence = 1D6 (minimum 2), suppliable by the master. Set its attributes to match the host. Gains 1 Essence per box of harm it makes a victim do under its master's influence; loses 1 Essence erratically (1D6 months)."
+  },
+  {
+    name: "Volleying Porcupine", page: 107,
+    b: 1, q: 4, moveMult: 2, s: 1, c: 1, i: 1, w: 4, e: 6, r: 3,
+    attacks: "3L melee; quill volley 6L (close) / 5L (far)",
+    powers: "Enhanced Senses (Low-Light Vision), Spraying (Range: ¼ normal)",
+    weak: "Dietary Requirement (Salt)",
+    desc: "An Awakened porcupine (Hystrix sagittarius) that launches volleys of quills at attackers; a melee attacker risks getting stuck.",
+    habitat: "Rocky terrain, woodland",
+    range: "Hot southern European countries",
+    notes: "Melee attackers make a Quickness Test (TN = its Essence) or take 6L from quills. Ranged quill range table (E = Essence): Short 0–(E−1) 6L, Medium E–(2E−2) 6L, Long (2E−1)–3E 5L, Extreme (3E+1)–(4E−2) 5L; victim Quickness Test (TN = Essence+1) to evade. Book Intelligence 1/3."
+  },
+  {
+    name: "Wild Minotaur", page: 109,
+    b: 12, armor: 1, q: 3, moveMult: 5, s: 11, c: 1, i: 1, w: 6, e: 4, r: 2,
+    attacks: "7D, Reach +1",
+    powers: "Confusion (Zone ×3), Enhanced Physical Attributes (Strength, 3×/day for [Essence]D6 turns), Enhanced Senses (Low-Light Vision, Thermographic Vision)",
+    weak: "None",
+    desc: "A savage bull-headed brute (Aurochs atrox) lurking in caves and tunnels; it is unaffected by all illusion spells.",
+    habitat: "Caves, underground excavations",
+    range: "Greece (very rare), Albania, Romania, Poland",
+    notes: "Book Body 12/1, Intelligence 1/6."
+  },
+  {
+    name: "Wraith", page: 111,
+    b: 10, q: 12, moveMult: 3, s: 6, c: 4, i: 7, w: 10, e: 12, r: 7,
+    attacks: "Special (harm via Influence)",
+    powers: "Confusion (Zone ×2), Fear (Zone ×2), Immunity to Pathogens, Immunity to Poisons, Influence (Zone ×2), Magical Resistance, Magic Sense, Manifestation",
+    weak: "None known",
+    desc: "A malevolent free spirit (Umbra metuculosus) born of violence, haunting the places where it died and driving the living to harm one another.",
+    habitat: "Sites of violence, rural or urban",
+    range: "Throughout Europe",
+    notes: "Acts as a free spirit (Grimoire II) with a Spirit Energy Rating: it starts at 0 and rises 1 per box of Stun/Physical damage a victim under its Influence inflicts on another, up to 2× its Essence. Dual-natured (Essence 12 astral)."
+  },
+  {
+    name: "Wyrd Mantis", page: 113,
+    b: 2, armor: 2, q: 5, moveMult: 4, s: 2, c: 1, i: 2, w: 2, e: 6, r: 3,
+    attacks: "4M (female form; male 5L)",
+    powers: "Adaptive Coloration (Selective), Enhanced Senses (Low-Light Vision), Enhanced Physical Attributes (Quickness, 3×/day for [Essence]D6 turns), Immunity to Poisons, Influence (females only, LOS), Venom",
+    weak: "None",
+    desc: "A giant Awakened praying mantis (Mantis malus); the larger females are the dangerous ones, and insect shamans prize them.",
+    habitat: "Woodland, forest",
+    range: "Central and southern Europe",
+    notes: "Stats are the female form. Male form: B1/1 Q4×4 S1 I1/4, 5L. Flying Quickness multiplier 4, but it can only fly once per hour for [Essence]D6 turns. Book Body 2/2 (female), Intelligence 2/5 (female)."
   }
 ];
 
