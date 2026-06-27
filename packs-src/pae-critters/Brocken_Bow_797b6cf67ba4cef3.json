@@ -1,0 +1,143 @@
+{
+  "_id": "797b6cf67ba4cef3",
+  "name": "Brocken Bow",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>The vengeful spirit of a woman burned in the witch trials (no accepted taxonomy). All Brocken bows have Essence Drain; roll 1D6 per other listed power — on a 1 that individual lacks it.</p><p><strong>Powers:</strong> Alienation (Zone ×2), Cold Aura (Personal), Darkness, Essence Drain (Permanent and Temporary), Fear (Zone ×2), Immunity to Age, Immunity to Cold, Immunity to Normal Weapons, Immunity to Pathogens, Immunity to Poisons, Manifestation, Movement, Paralyzing Touch</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Severe), Essence Loss (1 point per 10 years), Vulnerability (Fire)</p><p><em>Attacks: Special (Essence Drain, Paralyzing Touch). Habitat: Hills and mountains, wild lands. Range: Southeastern France, Germany (Franconia, Rhineland, Saxony). Dual-natured; Essence listed 7(A). Book Charisma 2/6. Cold Aura can be extended to one victim within Essence×D6 metres as a Complex Action. PAE p.21.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "strength": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "essence": {
+      "value": 7,
+      "max": 7
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 6
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 6,
+      "dice": 1,
+      "mod": 0,
+      "value": 6
+    },
+    "threatRating": 4,
+    "movement": {
+      "walk": 5,
+      "run": 15
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Brocken Bow",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!797b6cf67ba4cef3"
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "622075ca49965fbd",
+  "name": "Bean Sidhe",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>The Celtic banshee (Spectris lamentaris) — a wailing death-spirit attached to a clan. Distinct from (and far more elaborate than) the system's generic Banshee. Dual-natured; at least one Tir Nan Og bean sidhe also casts manipulation spells.</p><p><strong>Powers:</strong> Alienation (Zone ×2), Cold Aura (Personal), Compulsion (Zone ×2), Essence Drain (Temporary), Immunity to Age, Immunity to Cold, Immunity to Normal Weapons, Immunity to Pathogens, Immunity to Poisons, Magic Sense, Manifestation, Paralyzing Howl (Zone ×2), Psychokinesis, Regeneration, Sonic Projection; some also Confusion (Zone ×2), Darkness, Magic Resistance</p><p><strong>Weaknesses:</strong> Allergy (Silver, Extreme)</p><p><em>Attacks: Special (Essence Drain, Paralyzing Howl). Habitat: Celtic wild lands. Range: Scotland and Tir Nan Og. Dual-natured (astrally active). Essence listed 6(A). PAE p.17.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "strength": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 7,
+      "mod": 0,
+      "value": 7,
+      "racial": 0
+    },
+    "essence": {
+      "value": 6,
+      "max": 6
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 5
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 5,
+      "dice": 1,
+      "mod": 0,
+      "value": 5
+    },
+    "threatRating": 4,
+    "movement": {
+      "walk": 5,
+      "run": 15
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Bean Sidhe",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!622075ca49965fbd"
+}

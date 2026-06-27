@@ -93,6 +93,63 @@ const CRITTERS = [
     habitat: "Hills, forest and woodlands, grasslands",
     range: "Lithuania, Latvia, Estonia, Byelorussia",
     notes: "Flying Quickness multiplier is 7 (ground ×3); 3D6 Initiative dice."
+  },
+
+  // Batch 2 — B (book p.15–23). Init dice: R "N" = 1D6, "N*" = 2D6, "N**" = 3D6.
+  {
+    name: "Bayard", page: 15,
+    b: 10, q: 5, moveMult: 8, s: 8, c: 3, i: 3, w: 4, e: 6, r: 5, initDice: 2,
+    attacks: "7S, Reach +1 (hooves)",
+    powers: "Animal Control (Equines), Empathy (LOS), Enhanced Movement, Mist Form (adults only), Noxious Breath, Sonic Projection (stallions only)",
+    weak: "None",
+    desc: "A large magical horse (Equus maximus) that can painfully dissolve into mist. Prized by horseflesh merchants; peaceful and benign unless abused.",
+    habitat: "Grassy plains, low hills",
+    range: "France, fringes of Franconia and northern Italy",
+    notes: "Flying Quickness multiplier in mist form is 7; 2D6 Initiative dice. Book Intelligence 3/5."
+  },
+  {
+    name: "Bean Sidhe", page: 17,
+    b: 5, q: 5, s: 2, c: 3, i: 3, w: 7, e: 6, r: 5,
+    attacks: "Special (Essence Drain, Paralyzing Howl)",
+    powers: "Alienation (Zone ×2), Cold Aura (Personal), Compulsion (Zone ×2), Essence Drain (Temporary), Immunity to Age, Immunity to Cold, Immunity to Normal Weapons, Immunity to Pathogens, Immunity to Poisons, Magic Sense, Manifestation, Paralyzing Howl (Zone ×2), Psychokinesis, Regeneration, Sonic Projection; some also Confusion (Zone ×2), Darkness, Magic Resistance",
+    weak: "Allergy (Silver, Extreme)",
+    desc: "The Celtic banshee (Spectris lamentaris) — a wailing death-spirit attached to a clan. Distinct from (and far more elaborate than) the system's generic Banshee. Dual-natured; at least one Tir Nan Og bean sidhe also casts manipulation spells.",
+    habitat: "Celtic wild lands",
+    range: "Scotland and Tir Nan Og",
+    notes: "Dual-natured (astrally active). Essence listed 6(A)."
+  },
+  {
+    name: "Blackberry Cat", page: 19,
+    b: 2, q: 5, moveMult: 5, s: 2, c: 3, i: 3, w: 5, e: 6, r: 6, initDice: 3,
+    attacks: "6L, Reach −1 (claws)",
+    powers: "Accident (LOS), Adaptive Coloration, Blindness (LOS), Compulsion (LOS), Darkness, Desire Reflection (LOS), Enhanced Movement, Enhanced Reactions (for [Essence]D6 turns, 1D6 times/day), Enhanced Senses (Low-Light Vision), Hypnotic Howl (miaow, Zone ×2), Illusion (LOS)",
+    weak: "Catnip (acts as a powerful intoxicant — see book)",
+    desc: "A small, sly Awakened black cat (Felis nigra) that holds strong territorial ideas and toys with intruders using its mind-affecting powers. Sometimes kept as a (dangerous) pet.",
+    habitat: "Woodland, heaths, rocky hills, fringes of urban areas",
+    range: "Throughout Europe, especially the U.K. and east-central Europe",
+    notes: "3D6 Initiative dice. Book Intelligence 3/8."
+  },
+  {
+    name: "Brocken Bow", page: 21,
+    b: 5, q: 5, s: 5, c: 2, i: 2, w: 5, e: 7, r: 6,
+    attacks: "Special (Essence Drain, Paralyzing Touch)",
+    powers: "Alienation (Zone ×2), Cold Aura (Personal), Darkness, Essence Drain (Permanent and Temporary), Fear (Zone ×2), Immunity to Age, Immunity to Cold, Immunity to Normal Weapons, Immunity to Pathogens, Immunity to Poisons, Manifestation, Movement, Paralyzing Touch",
+    weak: "Allergy (Sunlight, Severe), Essence Loss (1 point per 10 years), Vulnerability (Fire)",
+    desc: "The vengeful spirit of a woman burned in the witch trials (no accepted taxonomy). All Brocken bows have Essence Drain; roll 1D6 per other listed power — on a 1 that individual lacks it.",
+    habitat: "Hills and mountains, wild lands",
+    range: "Southeastern France, Germany (Franconia, Rhineland, Saxony)",
+    notes: "Dual-natured; Essence listed 7(A). Book Charisma 2/6. Cold Aura can be extended to one victim within Essence×D6 metres as a Complex Action."
+  },
+  {
+    name: "Bulldog Stoat", page: 23,
+    b: 2, q: 4, moveMult: 5, s: 3, c: 1, i: 2, w: 6, e: 6, r: 4, initDice: 2,
+    attacks: "6L (latches onto the wound)",
+    powers: "Concealment (Personal), Enhanced Physical Attributes (Quickness, 2×/day for [Essence]D6 turns), Immunity to Pathogens, Immunity to Poisons",
+    weak: "None",
+    desc: "A vicious little Awakened stoat (Mustela stalini) used as a security animal. On a damaging bite it fastens to the wound, dealing escalating damage (7L, 8L, 9L…) on action 3 + 1D6 turns until killed or sated with blood.",
+    habitat: "Woodland, hedgerows, grassland, rough grassland, moors",
+    range: "Northern Europe, most common in Eastern Europe",
+    notes: "2D6 Initiative dice. Armor protects against the latched-on damage. Book Intelligence 2/4."
   }
 ];
 
