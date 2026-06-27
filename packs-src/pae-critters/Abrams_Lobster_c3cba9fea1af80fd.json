@@ -1,46 +1,46 @@
 {
-  "_id": "285cd86e7d602eed",
-  "name": "Aitvaras",
+  "_id": "c3cba9fea1af80fd",
+  "name": "Abrams Lobster",
   "type": "npc",
   "img": "icons/svg/pawprint.svg",
   "system": {
-    "biography": "<p>A small dracoform — a flying serpent (Alutsewerpens lithuania) of Baltic folklore. Said to guard and protect its lair; extremely dangerous if cornered or threatened.</p><p><strong>Powers:</strong> Animal Control (Special), Concealment (Personal), Empathy (LOS), Immunity to Normal Weapons, Magical Resistance, Venom</p><p><em>Attacks: 6L, Reach −1. Habitat: Hills, forest and woodlands, grasslands. Range: Lithuania, Latvia, Estonia, Byelorussia. Flying Quickness multiplier is 7 (ground ×3); 3D6 Initiative dice. PAE p.13.</em></p>",
+    "biography": "<p>A giant Awakened lobster (Homarus immanis) thriving in the PCB-enriched coastal waters of the North Sea. Grips prey in its claws and crushes it.</p><p><strong>Powers:</strong> Enhanced Senses (Sonar), Hardened Armor, Immunity to Poisons</p><p><em>Attacks: 5S, Reach +1 (gripping claw). Habitat: Shallow coastal regions, seabeds, estuaries. Range: Coastlines of the North Sea, Scandinavia. Gripping claw: a victim makes a Quickness (4) Test to break free; the grip's Damage Code rises +1 each Combat Turn. Book stats: Body 5/3 (Hardened Armor 3), Intelligence 1/4. PAE p.9.</em></p>",
     "race": "critter",
     "professionalRating": 0,
     "body": {
-      "base": 4,
+      "base": 5,
       "mod": 0,
-      "value": 4,
+      "value": 5,
       "racial": 0
     },
     "quickness": {
-      "base": 6,
-      "mod": 0,
-      "value": 6,
-      "racial": 0
-    },
-    "strength": {
       "base": 3,
       "mod": 0,
       "value": 3,
       "racial": 0
     },
-    "charisma": {
+    "strength": {
       "base": 5,
       "mod": 0,
       "value": 5,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
       "racial": 0
     },
     "intelligence": {
-      "base": 6,
+      "base": 1,
       "mod": 0,
-      "value": 6,
+      "value": 1,
       "racial": 0
     },
     "willpower": {
-      "base": 5,
+      "base": 4,
       "mod": 0,
-      "value": 5,
+      "value": 4,
       "racial": 0
     },
     "essence": {
@@ -57,7 +57,7 @@
     "reaction": {
       "base": 0,
       "mod": 0,
-      "value": 6
+      "value": 3
     },
     "conditionMonitor": {
       "physical": {
@@ -73,8 +73,8 @@
       "overflow": 0
     },
     "armor": {
-      "ballistic": 0,
-      "impact": 0
+      "ballistic": 3,
+      "impact": 3
     },
     "dicePools": {
       "combat": {
@@ -89,15 +89,15 @@
       }
     },
     "initiative": {
-      "base": 6,
-      "dice": 3,
+      "base": 3,
+      "dice": 1,
       "mod": 0,
-      "value": 6
+      "value": 3
     },
-    "threatRating": 5,
+    "threatRating": 3,
     "movement": {
-      "walk": 6,
-      "run": 18
+      "walk": 3,
+      "run": 12
     }
   },
   "items": [],
@@ -117,7 +117,7 @@
     "exportSource": null
   },
   "prototypeToken": {
-    "name": "Aitvaras",
+    "name": "Abrams Lobster",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -139,5 +139,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!actors!285cd86e7d602eed"
+  "_key": "!actors!c3cba9fea1af80fd"
 }

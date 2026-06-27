@@ -1,46 +1,46 @@
 {
-  "_id": "285cd86e7d602eed",
-  "name": "Aitvaras",
+  "_id": "1442160386ac3dc8",
+  "name": "Afanc",
   "type": "npc",
   "img": "icons/svg/pawprint.svg",
   "system": {
-    "biography": "<p>A small dracoform — a flying serpent (Alutsewerpens lithuania) of Baltic folklore. Said to guard and protect its lair; extremely dangerous if cornered or threatened.</p><p><strong>Powers:</strong> Animal Control (Special), Concealment (Personal), Empathy (LOS), Immunity to Normal Weapons, Magical Resistance, Venom</p><p><em>Attacks: 6L, Reach −1. Habitat: Hills, forest and woodlands, grasslands. Range: Lithuania, Latvia, Estonia, Byelorussia. Flying Quickness multiplier is 7 (ground ×3); 3D6 Initiative dice. PAE p.13.</em></p>",
+    "biography": "<p>A crocodile-like dracoform (Crocodylus cymri) with a flat beaver-like tail, roughly 3 m plus a 1.5 m tail and ~375 kg of green-brown muscle. It digs, lives semi-socially, and ambushes large prey — sheep, cattle, even people — from the water.</p><p><strong>Powers:</strong> Engulf, Enhanced Physical Attributes (Strength, 3×/day for [Essence]D6 turns), Enhanced Senses (Low-Light Vision, Smell), Hardened Armor, Search</p><p><em>Attacks: 10S (gripping bite). Habitat: Rivers and estuaries. Range: Wales and scattered parts of Europe. Gripping bite: opposed Strength tests to escape; the grip's Power rises +1 each Combat Turn. Swimming Quickness multiplier 4. Book stats: Body 10/4 (Hardened Armor 4), Intelligence 2/4. PAE p.11.</em></p>",
     "race": "critter",
     "professionalRating": 0,
     "body": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "quickness": {
       "base": 4,
       "mod": 0,
       "value": 4,
       "racial": 0
     },
-    "quickness": {
-      "base": 6,
-      "mod": 0,
-      "value": 6,
-      "racial": 0
-    },
     "strength": {
-      "base": 3,
+      "base": 8,
       "mod": 0,
-      "value": 3,
+      "value": 8,
       "racial": 0
     },
     "charisma": {
-      "base": 5,
+      "base": 1,
       "mod": 0,
-      "value": 5,
+      "value": 1,
       "racial": 0
     },
     "intelligence": {
-      "base": 6,
+      "base": 2,
       "mod": 0,
-      "value": 6,
+      "value": 2,
       "racial": 0
     },
     "willpower": {
-      "base": 5,
+      "base": 4,
       "mod": 0,
-      "value": 5,
+      "value": 4,
       "racial": 0
     },
     "essence": {
@@ -57,7 +57,7 @@
     "reaction": {
       "base": 0,
       "mod": 0,
-      "value": 6
+      "value": 3
     },
     "conditionMonitor": {
       "physical": {
@@ -73,8 +73,8 @@
       "overflow": 0
     },
     "armor": {
-      "ballistic": 0,
-      "impact": 0
+      "ballistic": 4,
+      "impact": 4
     },
     "dicePools": {
       "combat": {
@@ -89,15 +89,15 @@
       }
     },
     "initiative": {
-      "base": 6,
-      "dice": 3,
+      "base": 3,
+      "dice": 1,
       "mod": 0,
-      "value": 6
+      "value": 3
     },
     "threatRating": 5,
     "movement": {
-      "walk": 6,
-      "run": 18
+      "walk": 4,
+      "run": 16
     }
   },
   "items": [],
@@ -117,7 +117,7 @@
     "exportSource": null
   },
   "prototypeToken": {
-    "name": "Aitvaras",
+    "name": "Afanc",
     "displayName": 0,
     "actorLink": false,
     "width": 1,
@@ -139,5 +139,5 @@
   "ownership": {
     "default": 0
   },
-  "_key": "!actors!285cd86e7d602eed"
+  "_key": "!actors!1442160386ac3dc8"
 }

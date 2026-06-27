@@ -59,17 +59,40 @@ function critter(x) {
 
 // ── CRITTER DATA (alphabetical; appended batch by batch) ───────────────────────
 const CRITTERS = [
-  // Batch 1 — A
+  // Batch 1 — A (book p.9–13). Body "N/A" = Body N + Hardened Armor A; Quickness
+  // "N×M" = Q N, ground move ×M; Intelligence "N/M" → use N, dual noted in notes.
   {
-    name: "Aitvaras", page: 16,
+    name: "Abrams Lobster", page: 9,
+    b: 5, armor: 3, q: 3, moveMult: 4, s: 5, c: 1, i: 1, w: 4, e: 6, r: 3,
+    attacks: "5S, Reach +1 (gripping claw)",
+    powers: "Enhanced Senses (Sonar), Hardened Armor, Immunity to Poisons",
+    weak: "None",
+    desc: "A giant Awakened lobster (Homarus immanis) thriving in the PCB-enriched coastal waters of the North Sea. Grips prey in its claws and crushes it.",
+    habitat: "Shallow coastal regions, seabeds, estuaries",
+    range: "Coastlines of the North Sea, Scandinavia",
+    notes: "Gripping claw: a victim makes a Quickness (4) Test to break free; the grip's Damage Code rises +1 each Combat Turn. Book stats: Body 5/3 (Hardened Armor 3), Intelligence 1/4."
+  },
+  {
+    name: "Afanc", page: 11,
+    b: 10, armor: 4, q: 4, moveMult: 4, s: 8, c: 1, i: 2, w: 4, e: 6, r: 3,
+    attacks: "10S (gripping bite)",
+    powers: "Engulf, Enhanced Physical Attributes (Strength, 3×/day for [Essence]D6 turns), Enhanced Senses (Low-Light Vision, Smell), Hardened Armor, Search",
+    weak: "None",
+    desc: "A crocodile-like dracoform (Crocodylus cymri) with a flat beaver-like tail, roughly 3 m plus a 1.5 m tail and ~375 kg of green-brown muscle. It digs, lives semi-socially, and ambushes large prey — sheep, cattle, even people — from the water.",
+    habitat: "Rivers and estuaries",
+    range: "Wales and scattered parts of Europe",
+    notes: "Gripping bite: opposed Strength tests to escape; the grip's Power rises +1 each Combat Turn. Swimming Quickness multiplier 4. Book stats: Body 10/4 (Hardened Armor 4), Intelligence 2/4."
+  },
+  {
+    name: "Aitvaras", page: 13,
     b: 4, q: 6, s: 3, c: 5, i: 6, w: 5, e: 6, r: 6, initDice: 3, moveMult: 3,
-    attacks: "6L (Reach −1)",
+    attacks: "6L, Reach −1",
     powers: "Animal Control (Special), Concealment (Personal), Empathy (LOS), Immunity to Normal Weapons, Magical Resistance, Venom",
-    weak: "None", magic: 1,
+    weak: "None",
     desc: "A small dracoform — a flying serpent (Alutsewerpens lithuania) of Baltic folklore. Said to guard and protect its lair; extremely dangerous if cornered or threatened.",
     habitat: "Hills, forest and woodlands, grasslands",
     range: "Lithuania, Latvia, Estonia, Byelorussia",
-    notes: "Flying Quickness multiplier is 7 (ground ×3)."
+    notes: "Flying Quickness multiplier is 7 (ground ×3); 3D6 Initiative dice."
   }
 ];
 
