@@ -264,6 +264,52 @@ const CRITTERS = [
     habitat: "Forests and heavy woodlands",
     range: "Scandinavia, far eastern Europe, Germany (very rare)",
     notes: "2D6 Initiative dice. Book Intelligence 2/5."
+  },
+
+  // Batch 5 — F/G (book p.45–51).
+  {
+    name: "Flame Jackal", page: 45,
+    b: 3, q: 4, moveMult: 3, s: 3, c: 1, i: 2, w: 2, e: 6, r: 4,
+    attacks: "5L (bite)",
+    powers: "Flame Projection (special — see notes), Immunity to Fire",
+    weak: "None",
+    desc: "A jackal (Canis igni) that projects fire, gaining the ability at maturity. It uses decoy strategies rather than its flames to keep predators from its young.",
+    habitat: "Steppe, scrub, low hills, outskirts of urban areas",
+    range: "Greece, Spain, Balkan states (rare)",
+    notes: "Can project an aura of flame around itself to a distance of (Essence ÷ 2) metres; neither its own flames nor another flame jackal's harm it. Book Intelligence 2/4."
+  },
+  {
+    name: "Fomorian", page: 47,
+    b: 10, armor: 3, q: 4, moveMult: 2, s: 11, c: 1, i: 3, w: 4, e: 5, r: 4,
+    attacks: "9D, Reach +1",
+    powers: "Corrosive Secretions, Enhanced Physical Attributes (Strength, 3×/day, increased by [Essence÷2] for [Essence]D6 turns), Enhanced Senses (Thermographic Vision), Magical Resistance",
+    weak: "Allergy (Air Pollution, Severe), Allergy (Sunlight, Nuisance)",
+    desc: "A savage giant of Irish myth (Homo foeditas) — a hulking, corrosive bog-dweller, often confused with trolls and the dzoo-noo-qua.",
+    habitat: "Marshes, peat bogs, woodland, forest",
+    range: "Tir Nan Og",
+    notes: "Book Body 10/3 (Hardened Armor 3)."
+  },
+  {
+    name: "Foulmart", page: 49,
+    b: 1, q: 5, moveMult: 4, s: 1, c: 1, i: 2, w: 3, e: 6, r: 4, initDice: 3,
+    attacks: "4L, Reach −1 (bite)",
+    powers: "Concealment (Personal), Spraying (Special, ¼ normal range)",
+    weak: "None",
+    desc: "An Awakened polecat (Mustela putorius magnus) whose foul musk spray is harvested as an antipersonnel deterrent. The reek lingers for weeks and makes skin peel.",
+    habitat: "Woodland, riverbanks, urban fringes",
+    range: "Throughout Europe",
+    notes: "3D6 Initiative dice. The spray also blinds both natural and cyber eyes. Book Intelligence 2/4."
+  },
+  {
+    name: "Ghede Fly", page: 51,
+    b: 1, armor: 1, q: 7, moveMult: 2, s: 1, c: 1, i: 1, w: 4, e: 6, r: 5, initDice: 2,
+    attacks: "2L female / 4L male, Reach −2",
+    powers: "Males: Confusion (Zone ×2), Darkness, Enhanced Senses (Improved Smell, Sonar, Thermographic Vision), Immunity to Pathogens, Magic Sense, Search. Females: Essence Drain (Temporary), Immunity to Pathogens, Pestilence (roll 1D6; on a 6 the individual has it)",
+    weak: "Dietary Requirement (Human/metahuman blood, females only)",
+    desc: "A giant Awakened biting fly (Culex pestilans). Females drain blood and Essence and carry a cyclical VITAS-related disease; males attack with mandibles.",
+    habitat: "Marshes, swamps, heavily polluted and slow-moving freshwater",
+    range: "Throughout southern Europe",
+    notes: "Flying Quickness multiplier 5. 2D6 Initiative dice. Females temporarily drain 1 Essence per wound; the drained point boosts that female's Body for [Essence]D6 turns. Book Body 1/1, Intelligence 1/5."
   }
 ];
 
