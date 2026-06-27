@@ -60,6 +60,17 @@ function critter(x) {
 // ── CRITTER DATA (alphabetical; appended batch by batch) ───────────────────────
 const CRITTERS = [
   // Batch 1 — A
+  {
+    name: "Aitvaras", page: 16,
+    b: 4, q: 6, s: 3, c: 5, i: 6, w: 5, e: 6, r: 6, initDice: 3, moveMult: 3,
+    attacks: "6L (Reach −1)",
+    powers: "Animal Control (Special), Concealment (Personal), Empathy (LOS), Immunity to Normal Weapons, Magical Resistance, Venom",
+    weak: "None", magic: 1,
+    desc: "A small dracoform — a flying serpent (Alutsewerpens lithuania) of Baltic folklore. Said to guard and protect its lair; extremely dangerous if cornered or threatened.",
+    habitat: "Hills, forest and woodlands, grasslands",
+    range: "Lithuania, Latvia, Estonia, Byelorussia",
+    notes: "Flying Quickness multiplier is 7 (ground ×3)."
+  }
 ];
 
 for (const c of CRITTERS) {
