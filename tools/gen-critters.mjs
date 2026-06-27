@@ -549,6 +549,63 @@ const CRITTERS = [
     habitat: "Freshwater lakes, rivers",
     range: "Europe",
     notes: "Body/Strength/bite scale with length: 0–1 m → B1 S1 4M; 1–2 m → B2 S2 5M; 2–3 m → B4 S3 6M; over 3 m → +1 each per ½ m (Body max 7, Strength max 6), bite 8M. Spits corrosive saliva to (Essence)×2 m (victim Quickness Test to dodge); Engulf only works on victims already hit by the saliva. 2D6 Initiative dice. Book Intelligence 1/4."
+  },
+
+  // Batch 10 — S/T (book p.95–103).
+  {
+    name: "Sprite", page: 95,
+    b: 2, q: 10, moveMult: 5, s: 1, c: 3, i: 4, w: 4, e: 6, r: 7, initDice: 2,
+    attacks: "1M",
+    powers: "Concealment (Personal)",
+    weak: "None",
+    desc: "A tiny winged fairy (no accepted taxonomy) of Tir Nan Og, quick and elusive.",
+    habitat: "Insufficient data",
+    range: "Tir Nan Og",
+    notes: "Flying Quickness multiplier 5. 2D6 Initiative dice."
+  },
+  {
+    name: "Stone Toad", page: 97,
+    b: 1, q: 3, moveMult: 2, s: 1, c: 1, i: 1, w: 2, e: 6, r: 4,
+    attacks: "1L, Reach −1",
+    powers: "Corrosive Secretions",
+    weak: "None",
+    desc: "A magical toad (Bombina invisus) whose skin secretes acid when startled and a sebaceous hallucinogen when calm; its forebrain bone is prized for enchanting.",
+    habitat: "Varied, but always moist terrain",
+    range: "Throughout Europe, except very hot/dry countries",
+    notes: "The hallucinogen forces a Body Test (TN = the toad's Essence); failure gives the victim the Illusion power for [Essence] hours. The forebrain bone is 1 mineral unit of enchanting material (−1 enchanting TN). Eating one inflicts 8S toxin. Swimming Quickness multiplier 3. Book Intelligence 1/4."
+  },
+  {
+    name: "Storm Dolphin", page: 99,
+    b: 4, q: 6, moveMult: 5, s: 4, c: 3, i: 3, w: 5, e: 7, r: 5,
+    attacks: "6L",
+    powers: "Electrical Projection, Empathy (LOS), Engulf, Enhanced Physical Attributes (Body, 1×/day for [Essence]2D6 turns), Enhanced Senses (Sonar), Magical Resistance, Magic Sense, Movement, Weather Control",
+    weak: "None",
+    desc: "An aggressive, militant Awakened dolphin (Delphinus periculosis); its pods strike back hard at those who foul the seas.",
+    habitat: "Temperate oceans and seas",
+    range: "North, Irish and Baltic seas, western Atlantic, Black Sea (rare), Mediterranean (very rare)",
+    notes: "Communicates by sonar; manmade sonar within ¼ km disrupts it (+2 TN to Perception). Can distort sonar gear within (Essence)×20 m (+2 TN to sonar detection). Swimming Quickness multiplier. Book Intelligence 3/6."
+  },
+  {
+    name: "Stymphalian", page: 101,
+    b: 3, q: 4, moveMult: 3, s: 2, c: 1, i: 2, w: 4, e: 6, r: 3,
+    attacks: "5L melee (beak, claws); 4L ranged (arrow feathers)",
+    powers: "Enhanced Senses (Improved Hearing), Noxious Breath",
+    weak: "Sonic (loud amplified noise)",
+    desc: "A metal-feathered marsh bird (Ardea foedus) of Greek myth that launches its razor feathers like arrows.",
+    habitat: "Marshes, swamps, estuaries, rivers, coastal waters",
+    range: "Scattered throughout southern Europe",
+    notes: "Ambient noise above 90 dB forces a Body Resistance Test vs 3L and a Willpower (4) Test; high noise (110 dB+) drives it off and raises others' target numbers. Arrow-feather range table (E = Essence): Short 0–E, Medium E+1–2E, Long 2E+1–4E, Extreme 4E+1–6E. Flying Quickness multiplier 7. Book Intelligence 2/4."
+  },
+  {
+    name: "Tarantella", page: 103,
+    b: 1, q: 4, moveMult: 4, s: 1, c: 1, i: 1, w: 2, e: 6, r: 3,
+    attacks: "Venom bite, [Essence]M, Reach −1",
+    powers: "Enhanced Senses (Thermographic Vision), Venom",
+    weak: "None",
+    desc: "A giant Awakened wolf spider (Lycosa saltator) whose venom sets victims dancing uncontrollably. Kept, improbably, as a pet.",
+    habitat: "Wide range of damp land terrains",
+    range: "Most of southern Europe",
+    notes: "Venom secondary effect: Body Test (TN = the spider's Essence); failure makes the victim jerky and uncoordinated for [Essence]D6 turns (a 'dancing spell'), repeating until they score 1+ successes on the Body Test at its end. Each dancing spell deals 6L Stun. Book Strength 0, Intelligence 1/3."
   }
 ];
 

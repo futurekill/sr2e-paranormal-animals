@@ -1,0 +1,143 @@
+{
+  "_id": "8874f5a7c4137b9f",
+  "name": "Storm Dolphin",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>An aggressive, militant Awakened dolphin (Delphinus periculosis); its pods strike back hard at those who foul the seas.</p><p><strong>Powers:</strong> Electrical Projection, Empathy (LOS), Engulf, Enhanced Physical Attributes (Body, 1×/day for [Essence]2D6 turns), Enhanced Senses (Sonar), Magical Resistance, Magic Sense, Movement, Weather Control</p><p><em>Attacks: 6L. Habitat: Temperate oceans and seas. Range: North, Irish and Baltic seas, western Atlantic, Black Sea (rare), Mediterranean (very rare). Communicates by sonar; manmade sonar within ¼ km disrupts it (+2 TN to Perception). Can distort sonar gear within (Essence)×20 m (+2 TN to sonar detection). Swimming Quickness multiplier. Book Intelligence 3/6. PAE p.99.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "strength": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "essence": {
+      "value": 7,
+      "max": 7
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 5
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 5,
+      "dice": 1,
+      "mod": 0,
+      "value": 5
+    },
+    "threatRating": 4,
+    "movement": {
+      "walk": 6,
+      "run": 30
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Storm Dolphin",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!8874f5a7c4137b9f"
+}
