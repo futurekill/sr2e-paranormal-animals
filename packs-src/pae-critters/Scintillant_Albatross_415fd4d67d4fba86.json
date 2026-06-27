@@ -1,0 +1,143 @@
+{
+  "_id": "415fd4d67d4fba86",
+  "name": "Scintillant Albatross",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A great Awakened albatross (Diomedea scintillans) of the northern seas whose scintillating plumage can dazzle and blind; at the equinox the males turn deadly.</p><p><strong>Powers:</strong> Animal Control (Sea Birds), Empathy (LOS), Enhanced Senses (Low-Light Vision), Influence (LOS); at the equinox (2–5 days) males also gain Flame Projection, Immunity to Fire, and a blinding power</p><p><strong>Weaknesses:</strong> Dietary Requirement (Sea Fish)</p><p><em>Attacks: 5L. Habitat: Oceans and seashore cliffs. Range: Flies throughout western and southern Europe; breeds in Scotland and Norway. The blinding feathers cause temporary blindness if observed within 270 m (350 m in bright light); flare-compensation cybereyes are immune. Flying Quickness multiplier 5. Book Intelligence 2/4. PAE p.89.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "strength": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "essence": {
+      "value": 6,
+      "max": 6
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 3
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 3,
+      "dice": 1,
+      "mod": 0,
+      "value": 3
+    },
+    "threatRating": 3,
+    "movement": {
+      "walk": 4,
+      "run": 20
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Scintillant Albatross",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!415fd4d67d4fba86"
+}

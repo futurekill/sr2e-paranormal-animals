@@ -1,0 +1,143 @@
+{
+  "_id": "b13bbae4d5a9b1c0",
+  "name": "Quicksilver Mongoose",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A lightning-fast Awakened mongoose (Herpestes illustris) and consummate snake-killer that dances its prey into a stupor before the kill.</p><p><strong>Powers:</strong> Accident (Zone), Enhanced Movement, Hypnotic Dance (as Hypnotic Song except range; affects snakes and creatures under 1 m), Immunity to Poisons (wholly immune to snake venom)</p><p><strong>Weaknesses:</strong> Dietary Requirement (snakes — venom and hepatic enzymes)</p><p><em>Attacks: 3L, Reach −1 (bite). Habitat: Scrub and open woodland. Range: Spain, Portugal, southern France, Sicily, Sardinia, southern Italy. Vs a hypnotized snake the bite is 5D; vs any other hypnotized target 6S. 3D6 Initiative dice. Book Intelligence 2/5. PAE p.85.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 7,
+      "mod": 0,
+      "value": 7,
+      "racial": 0
+    },
+    "strength": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "essence": {
+      "value": 6,
+      "max": 6
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 5
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 5,
+      "dice": 3,
+      "mod": 0,
+      "value": 5
+    },
+    "threatRating": 3,
+    "movement": {
+      "walk": 7,
+      "run": 28
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Quicksilver Mongoose",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!b13bbae4d5a9b1c0"
+}

@@ -492,6 +492,63 @@ const CRITTERS = [
     habitat: "Acidic lakes and rivers, marshes, swamps, any non-urban moist ground",
     range: "Throughout northern Europe",
     notes: "Mass 0.5–125 kg. Body is 0/1/2 by mass (<10 / 10–40 / 40+ kg); Strength is 0 under 40 kg, 1 above. Engulfed victims take Water-spell damage plus corrosion each turn. Impact/projectile weapons don't harm it; alkalis, fire and dehydration do. Book Intelligence 0/2."
+  },
+
+  // Batch 9 — Q/S (book p.85–93).
+  {
+    name: "Quicksilver Mongoose", page: 85,
+    b: 1, q: 7, moveMult: 4, s: 1, c: 1, i: 2, w: 3, e: 6, r: 5, initDice: 3,
+    attacks: "3L, Reach −1 (bite)",
+    powers: "Accident (Zone), Enhanced Movement, Hypnotic Dance (as Hypnotic Song except range; affects snakes and creatures under 1 m), Immunity to Poisons (wholly immune to snake venom)",
+    weak: "Dietary Requirement (snakes — venom and hepatic enzymes)",
+    desc: "A lightning-fast Awakened mongoose (Herpestes illustris) and consummate snake-killer that dances its prey into a stupor before the kill.",
+    habitat: "Scrub and open woodland",
+    range: "Spain, Portugal, southern France, Sicily, Sardinia, southern Italy",
+    notes: "Vs a hypnotized snake the bite is 5D; vs any other hypnotized target 6S. 3D6 Initiative dice. Book Intelligence 2/5."
+  },
+  {
+    name: "Satyr", page: 87,
+    b: 2, q: 4, moveMult: 5, s: 2, c: 1, i: 2, w: 3, e: 6, r: 3,
+    attacks: "5L",
+    powers: "Accident (Zone ×2), Concealment (Personal), Enhanced Reactions (3×/day for [Essence]D6 turns)",
+    weak: "Vulnerability (Poisons)",
+    desc: "A goat-legged Awakened creature (Capra satyrus) — a nimble climber fond of fermented fruit juice and bananas. (PAE critter, distinct from the Companion's satyr metahuman.)",
+    habitat: "Rocky hills and foothills",
+    range: "Greece, southern fringes of the Balkan states",
+    notes: "−2 to all target numbers for climbing tests; detects water pollutants with a Perception Test using Essence (−2 TN). Book Intelligence 2/4."
+  },
+  {
+    name: "Scintillant Albatross", page: 89,
+    b: 3, q: 4, moveMult: 5, s: 3, c: 1, i: 2, w: 3, e: 6, r: 3,
+    attacks: "5L",
+    powers: "Animal Control (Sea Birds), Empathy (LOS), Enhanced Senses (Low-Light Vision), Influence (LOS); at the equinox (2–5 days) males also gain Flame Projection, Immunity to Fire, and a blinding power",
+    weak: "Dietary Requirement (Sea Fish)",
+    desc: "A great Awakened albatross (Diomedea scintillans) of the northern seas whose scintillating plumage can dazzle and blind; at the equinox the males turn deadly.",
+    habitat: "Oceans and seashore cliffs",
+    range: "Flies throughout western and southern Europe; breeds in Scotland and Norway",
+    notes: "The blinding feathers cause temporary blindness if observed within 270 m (350 m in bright light); flare-compensation cybereyes are immune. Flying Quickness multiplier 5. Book Intelligence 2/4."
+  },
+  {
+    name: "Scorpyrine", page: 91,
+    b: 2, armor: 1, q: 5, moveMult: 2, s: 1, c: 1, i: 1, w: 2, e: 6, r: 3,
+    attacks: "4L claws + 5S stinger, Reach −1",
+    powers: "Immunity to Fire, Venom",
+    weak: "None",
+    desc: "A fire-immune Awakened scorpion (Euscorpius igneus) often conditioned as a security animal; it strikes with claws and a venomous sting.",
+    habitat: "Wide range (prefers rocks, stones, brick walls, buildings)",
+    range: "Southern Europe; occasional in northern European port towns and cities",
+    notes: "Two attacks on one target per Complex Action (claws 4L + stinger 5S). In a toxic domain the stinger is 7S or 4D. A claw hit lets it grab (victim Quickness (4) Test); while held it bites with claw + stinger, raising those to 5L / 6S. Book Body 2/1, Intelligence 1/4."
+  },
+  {
+    name: "Spitting Pike", page: 93,
+    b: 2, q: 5, moveMult: 5, s: 2, c: 1, i: 1, w: 2, e: 6, r: 4, initDice: 2,
+    attacks: "5M bite (scales with size) + corrosive spit",
+    powers: "Corrosive Saliva, Engulf, Enhanced Physical Attributes (Strength, 1×/day for [Essence]3D6 turns), Enhanced Senses (Depth Perception)",
+    weak: "None",
+    desc: "A large predatory Awakened pike (Esox sputare) that spits corrosive saliva at prey before closing to bite and engulf.",
+    habitat: "Freshwater lakes, rivers",
+    range: "Europe",
+    notes: "Body/Strength/bite scale with length: 0–1 m → B1 S1 4M; 1–2 m → B2 S2 5M; 2–3 m → B4 S3 6M; over 3 m → +1 each per ½ m (Body max 7, Strength max 6), bite 8M. Spits corrosive saliva to (Essence)×2 m (victim Quickness Test to dodge); Engulf only works on victims already hit by the saliva. 2D6 Initiative dice. Book Intelligence 1/4."
   }
 ];
 
