@@ -1,0 +1,18 @@
+node_modules/
+package-lock.json
+
+# Working extraction area — OCR text + page renders of the source PDF. Local
+# planning material only; never committed.
+_work/
+
+# NOTE: packs/ (the built LevelDB) IS committed here, unlike the SSC module.
+# A gitignored build artifact can get wiped (by a clean/fresh checkout) and
+# leave Foundry showing empty compendiums; committing it keeps the packs always
+# present. The cost is some LevelDB compaction churn in `git status` — ignore it.
+
+# Re-include assets/icons (the global ~/.gitignore_global "Icon?" rule matches
+# the "icons" dir name case-insensitively on macOS).
+!assets/icons/
+!assets/icons/*
+
+.DS_Store

@@ -1,0 +1,20 @@
+{
+  "id": "sr2e-paranormal-animals",
+  "title": "Shadowrun 2E: Paranormal Animals of Europe",
+  "description": "The Awakened animals from Paranormal Animals of Europe (FASA 7112) as ready-to-drop critter actors for the Shadowrun 2nd Edition system. Stat blocks only; the rules/flavour text is not imported.",
+  "version": "0.1.0",
+  "compatibility": { "minimum": "13", "verified": "13" },
+  "relationships": {
+    "systems": [
+      { "id": "sr2e", "type": "system", "compatibility": { "minimum": "0.10.0" } }
+    ]
+  },
+  "authors": [ { "name": "James Candalino" } ],
+  "packs": [
+    { "name": "pae-critters", "label": "PAE Awakened Animals", "path": "packs/pae-critters", "type": "Actor", "system": "sr2e", "ownership": { "PLAYER": "OBSERVER", "ASSISTANT": "OWNER" } }
+  ],
+  "packFolders": [
+    { "name": "Paranormal Animals of Europe", "sorting": "m", "packs": ["pae-critters"] }
+  ],
+  "flags": {}
+}
