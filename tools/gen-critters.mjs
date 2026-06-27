@@ -435,6 +435,63 @@ const CRITTERS = [
     habitat: "Damp upland woods, Alpine springs, rivers",
     range: "Switzerland, fringes of the Alps",
     notes: "When a spell is cast within (Essence+2)×Threat-Rating metres, it makes an opposed test (its Essence vs the caster's Magic Rating); each net success reduces the spell's Force by 1, but the caster still resists Drain at full Force. Absorbed energy boosts (for 1D6 hours) Enhanced Physical Attributes, Enhanced Movement, or Magical Resistance. Book Strength 0, Intelligence 1/2."
+  },
+
+  // Batch 8 — N/O/P (book p.75–83).
+  {
+    name: "Nosferatu", page: 75,
+    b: 4, q: 4, moveMult: 5, s: 4, c: 5, i: 3, w: 5, e: 7, r: 3, initDice: 2,
+    attacks: "Humanoid (+ Essence Drain)",
+    powers: "Compulsion (LOS), Enhanced Physical Attributes (Body & Strength, 2×/day for [Essence]D6 turns), Enhanced Senses (Improved Hearing, Low-Light Vision, Thermographic Vision), Essence Drain (Permanent & Temporary), Fear (LOS), Immunity to Age, Immunity to Pathogens, Immunity to Poison/Infection, Influence (LOS), Magical Resistance, Regeneration",
+    weak: "Allergy (Sunlight, Extreme), Essence Loss (1 point per 1D6+1 months)",
+    desc: "A blind vampire variant (Sanguisuga europa caecus) that begins as an infected metahuman, keeping most of its attributes. Unlike the common vampire it can drain Essence permanently without limit.",
+    habitat: "Urban (lives among humans)",
+    range: "Central and eastern Europe",
+    notes: "Begins as a character — use the higher of the host's attributes or these minimums: Body 4, Strength 4, Charisma 5, Intelligence 3, Willpower 5, Essence min 7. Dual-natured. 2D6 Initiative dice."
+  },
+  {
+    name: "Oracle Owl", page: 77,
+    b: 2, q: 5, moveMult: 6, s: 1, c: 4, i: 3, w: 3, e: 6, r: 5, initDice: 3,
+    attacks: "5L (talons)",
+    powers: "Animal Control (Avians), Empathy, Enhanced Senses (Improved Hearing & Smell, Low-Light Vision, Tactile Sense, Thermographic Vision), Magic Sense, Magical Resistance, Search, Silence (Zone)",
+    weak: "Vulnerability (Poisons)",
+    desc: "A prophetic Awakened owl (Bubo ignavus maiusculus) reputed for precognition — its acute senses pick up faint seismic and pollutant cues before disaster strikes.",
+    habitat: "Dense woodland (wild)",
+    range: "Southern and central Europe",
+    notes: "Casts detection spells at Force = 2× its Essence, reaching 2× Essence kilometres. Flying Quickness multiplier 6. 3D6 Initiative dice. Book Intelligence 3/6."
+  },
+  {
+    name: "Pegasus", page: 79,
+    b: 9, q: 4, moveMult: 6, s: 7, c: 1, i: 2, w: 3, e: 6, r: 5,
+    attacks: "6S, Reach +1 (hooves)",
+    powers: "Enhanced Reaction (3×/day for [Essence]D6 turns)",
+    weak: "Dietary Requirement (Citric Acid)",
+    desc: "The winged horse of legend (Equus volatilis amplus), graceful and swift on the wing.",
+    habitat: "Grasslands, plains",
+    range: "South-central Europe",
+    notes: "Flying Quickness multiplier 8. Book Intelligence 2/5."
+  },
+  {
+    name: "Peryton", page: 81,
+    b: 8, q: 4, moveMult: 5, s: 7, c: 1, i: 2, w: 3, e: 6, r: 5, initDice: 2,
+    attacks: "7S, Reach +1 (antlers; 4S stomp/bite)",
+    powers: "Accident (Zone ×3), Enhanced Senses (Depth Perception), Silence (Zone ×3)",
+    weak: "None",
+    desc: "A winged stag (Cervus insolens) of ill omen, said to cast a man-shaped shadow.",
+    habitat: "Cliffs, hills, foothills",
+    range: "Southern and east-central Europe",
+    notes: "Flying Quickness multiplier 7. 2D6 Initiative dice. Book Intelligence 2/4."
+  },
+  {
+    name: "Protean", page: 83,
+    b: 1, q: 3, moveMult: 2, s: 1, c: 1, i: 1, w: 2, e: 4, r: 2,
+    attacks: "Special (Engulf)",
+    powers: "Adaptive Coloration (Selective), Corrosive Secretions, Engulf",
+    weak: "Vulnerability (Alkaline chemical weapons, EM modulations, Fire)",
+    desc: "A giant corrosive amoeba (Entamoeba imitatrix) that engulfs and digests prey, mimicking its victims' appearance. It oozes through moist ground and splits when it grows too large.",
+    habitat: "Acidic lakes and rivers, marshes, swamps, any non-urban moist ground",
+    range: "Throughout northern Europe",
+    notes: "Mass 0.5–125 kg. Body is 0/1/2 by mass (<10 / 10–40 / 40+ kg); Strength is 0 under 40 kg, 1 above. Engulfed victims take Water-spell damage plus corrosion each turn. Impact/projectile weapons don't harm it; alkalis, fire and dehydration do. Book Intelligence 0/2."
   }
 ];
 

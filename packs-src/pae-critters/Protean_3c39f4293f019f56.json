@@ -1,0 +1,143 @@
+{
+  "_id": "3c39f4293f019f56",
+  "name": "Protean",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A giant corrosive amoeba (Entamoeba imitatrix) that engulfs and digests prey, mimicking its victims' appearance. It oozes through moist ground and splits when it grows too large.</p><p><strong>Powers:</strong> Adaptive Coloration (Selective), Corrosive Secretions, Engulf</p><p><strong>Weaknesses:</strong> Vulnerability (Alkaline chemical weapons, EM modulations, Fire)</p><p><em>Attacks: Special (Engulf). Habitat: Acidic lakes and rivers, marshes, swamps, any non-urban moist ground. Range: Throughout northern Europe. Mass 0.5–125 kg. Body is 0/1/2 by mass (<10 / 10–40 / 40+ kg); Strength is 0 under 40 kg, 1 above. Engulfed victims take Water-spell damage plus corrosion each turn. Impact/projectile weapons don't harm it; alkalis, fire and dehydration do. Book Intelligence 0/2. PAE p.83.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "strength": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "essence": {
+      "value": 4,
+      "max": 4
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 2
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 2,
+      "dice": 1,
+      "mod": 0,
+      "value": 2
+    },
+    "threatRating": 2,
+    "movement": {
+      "walk": 3,
+      "run": 6
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Protean",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!3c39f4293f019f56"
+}

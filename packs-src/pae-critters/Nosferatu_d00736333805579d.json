@@ -1,0 +1,143 @@
+{
+  "_id": "d00736333805579d",
+  "name": "Nosferatu",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A blind vampire variant (Sanguisuga europa caecus) that begins as an infected metahuman, keeping most of its attributes. Unlike the common vampire it can drain Essence permanently without limit.</p><p><strong>Powers:</strong> Compulsion (LOS), Enhanced Physical Attributes (Body & Strength, 2×/day for [Essence]D6 turns), Enhanced Senses (Improved Hearing, Low-Light Vision, Thermographic Vision), Essence Drain (Permanent & Temporary), Fear (LOS), Immunity to Age, Immunity to Pathogens, Immunity to Poison/Infection, Influence (LOS), Magical Resistance, Regeneration</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme), Essence Loss (1 point per 1D6+1 months)</p><p><em>Attacks: Humanoid (+ Essence Drain). Habitat: Urban (lives among humans). Range: Central and eastern Europe. Begins as a character — use the higher of the host's attributes or these minimums: Body 4, Strength 4, Charisma 5, Intelligence 3, Willpower 5, Essence min 7. Dual-natured. 2D6 Initiative dice. PAE p.75.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "strength": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "essence": {
+      "value": 7,
+      "max": 7
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 3
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 3,
+      "dice": 2,
+      "mod": 0,
+      "value": 3
+    },
+    "threatRating": 4,
+    "movement": {
+      "walk": 4,
+      "run": 20
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Nosferatu",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!d00736333805579d"
+}
