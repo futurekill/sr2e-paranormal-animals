@@ -378,6 +378,63 @@ const CRITTERS = [
     habitat: "Hills, mountains, forests",
     range: "Europe",
     notes: "Flying Quickness multiplier 7. 3D6 Initiative dice. Book Intelligence 2/4."
+  },
+
+  // Batch 7 — J/K/M/N (book p.65–73).
+  {
+    name: "Jauchekafer", page: 65,
+    b: 3, armor: 2, q: 3, moveMult: 3, s: 2, c: 1, i: 1, w: 3, e: 6, r: 2,
+    attacks: "3L female / 4M male (mandibles)",
+    powers: "Immunity to Pathogens, Immunity to Poisons, Venom",
+    weak: "None",
+    desc: "A giant Awakened dung/stag beetle (Lucanus fimus) breeding in sewers and polluted ground; its larvae lurk in warm city drains.",
+    habitat: "Polluted terrains (especially marshy, wet)",
+    range: "Throughout Europe",
+    notes: "Flying Quickness multiplier 5. Book Body 3/2, Intelligence 1/3."
+  },
+  {
+    name: "Kludde", page: 67,
+    b: 5, q: 6, moveMult: 6, s: 4, c: 1, i: 2, w: 6, e: 7, r: 4, initDice: 3,
+    attacks: "5M (canine form)",
+    powers: "Alienation (LOS), Blindness (LOS), Desire Reflection (LOS), Fear (LOS, canine form only), Hypnotic Song (Zone ×4, avian form only), Magical Resistance, Magic Sense, Psychokinesis",
+    weak: "Allergy (Sunlight, Nuisance)",
+    desc: "A Belgian shapeshifting spirit (no accepted taxonomy) with three forms — avian, canine, and feline. Dogs and cats always know it for what it is.",
+    habitat: "Urban fringes, plains, grassland, light woodland",
+    range: "Belgium and the fringes of surrounding countries",
+    notes: "Stats here are the canine form. Forms (all I2/4 W6 E7 R4**): Avian B3 Q6×3 S2, 6L Reach −1, fly ×6; Canine B5 Q6×6 S4, 5M; Feline B2 Q6×4 S1, 4L Reach −1. 3D6 Initiative dice."
+  },
+  {
+    name: "Meistersinger", page: 69,
+    b: 20, armor: 2, q: 5, moveMult: 5, s: 14, c: 6, i: 6, w: 6, e: 9, r: 6, initDice: 3,
+    attacks: "15D, Reach +1",
+    powers: "Animal Control (Fish, Aquatic Mammals), Compulsion (Zone ×5), Dismissal (Zone ×5), Empathy (LOS), Engulf, Enhanced Senses (Sonar), Immunity to Normal Weapons, Influence (LOS), Magic Sense, Search, Sonic Projection",
+    weak: "Dietary Requirement (Krill)",
+    desc: "A vast, wise Awakened whale (Megaptera palestrina) whose songs carry memory and meaning; it reincarnates alternately as male and female.",
+    habitat: "Cold/cool oceans",
+    range: "Arctic oceans (autumn/winter), North and Baltic seas (spring/summer)",
+    notes: "3D6 Initiative dice. Body 20, Strength 14, Essence 9 — whale-scale. Book Body 20/2."
+  },
+  {
+    name: "Merlin Hawk", page: 71,
+    b: 1, q: 5, moveMult: 8, s: 1, c: 5, i: 4, w: 4, e: 7, r: 6, initDice: 3, magic: 5,
+    attacks: "2L, Reach −1 (talons)",
+    powers: "Animal Control (Avian), Magical Resistance; magically active — casts Detection, Illusion and Manipulation spells. Equivalent magical skills: Magic 5+1D6, Sorcery 4+1D6, Conjuring 4+1D6 (air elementals)",
+    weak: "Vulnerability (Willow-wood weapons, Poisons)",
+    desc: "A magically-active Awakened falcon (Falco velox) that casts spells and works alongside the druids and bards of Wales, Scotland and Brittany.",
+    habitat: "Grassland, hills, moorland; coasts in winter",
+    range: "Wales, Scotland, Tir Nan Og, Brittany, Normandy",
+    notes: "Flying Quickness multiplier 8. 3D6 Initiative dice. Detects Essence within [Essence] miles and reacts badly to low-Essence (cybered/vampiric) beings. Book Intelligence 4/8."
+  },
+  {
+    name: "Nimue's Salamander", page: 73,
+    b: 1, q: 3, moveMult: 2, s: 1, c: 1, i: 1, w: 2, e: 6, r: 2,
+    attacks: "1L, Reach −2",
+    powers: "Magical Drain (special — see notes), Magic Sense",
+    weak: "Vulnerability (Poisons)",
+    desc: "A small Swiss salamander (Salamandra exhaurius) that short-circuits magic: it drains the Force from spells cast near it and absorbs the energy to empower itself.",
+    habitat: "Damp upland woods, Alpine springs, rivers",
+    range: "Switzerland, fringes of the Alps",
+    notes: "When a spell is cast within (Essence+2)×Threat-Rating metres, it makes an opposed test (its Essence vs the caster's Magic Rating); each net success reduces the spell's Force by 1, but the caster still resists Drain at full Force. Absorbed energy boosts (for 1D6 hours) Enhanced Physical Attributes, Enhanced Movement, or Magical Resistance. Book Strength 0, Intelligence 1/2."
   }
 ];
 

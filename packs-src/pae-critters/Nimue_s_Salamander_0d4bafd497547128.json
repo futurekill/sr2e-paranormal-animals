@@ -1,0 +1,143 @@
+{
+  "_id": "0d4bafd497547128",
+  "name": "Nimue's Salamander",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A small Swiss salamander (Salamandra exhaurius) that short-circuits magic: it drains the Force from spells cast near it and absorbs the energy to empower itself.</p><p><strong>Powers:</strong> Magical Drain (special — see notes), Magic Sense</p><p><strong>Weaknesses:</strong> Vulnerability (Poisons)</p><p><em>Attacks: 1L, Reach −2. Habitat: Damp upland woods, Alpine springs, rivers. Range: Switzerland, fringes of the Alps. When a spell is cast within (Essence+2)×Threat-Rating metres, it makes an opposed test (its Essence vs the caster's Magic Rating); each net success reduces the spell's Force by 1, but the caster still resists Drain at full Force. Absorbed energy boosts (for 1D6 hours) Enhanced Physical Attributes, Enhanced Movement, or Magical Resistance. Book Strength 0, Intelligence 1/2. PAE p.73.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 3,
+      "mod": 0,
+      "value": 3,
+      "racial": 0
+    },
+    "strength": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "essence": {
+      "value": 6,
+      "max": 6
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 2
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 2,
+      "dice": 1,
+      "mod": 0,
+      "value": 2
+    },
+    "threatRating": 2,
+    "movement": {
+      "walk": 3,
+      "run": 6
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Nimue's Salamander",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!0d4bafd497547128"
+}

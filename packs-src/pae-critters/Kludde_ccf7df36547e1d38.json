@@ -1,0 +1,143 @@
+{
+  "_id": "ccf7df36547e1d38",
+  "name": "Kludde",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A Belgian shapeshifting spirit (no accepted taxonomy) with three forms — avian, canine, and feline. Dogs and cats always know it for what it is.</p><p><strong>Powers:</strong> Alienation (LOS), Blindness (LOS), Desire Reflection (LOS), Fear (LOS, canine form only), Hypnotic Song (Zone ×4, avian form only), Magical Resistance, Magic Sense, Psychokinesis</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Nuisance)</p><p><em>Attacks: 5M (canine form). Habitat: Urban fringes, plains, grassland, light woodland. Range: Belgium and the fringes of surrounding countries. Stats here are the canine form. Forms (all I2/4 W6 E7 R4**): Avian B3 Q6×3 S2, 6L Reach −1, fly ×6; Canine B5 Q6×6 S4, 5M; Feline B2 Q6×4 S1, 4L Reach −1. 3D6 Initiative dice. PAE p.67.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "strength": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "essence": {
+      "value": 7,
+      "max": 7
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 4
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 4,
+      "dice": 3,
+      "mod": 0,
+      "value": 4
+    },
+    "threatRating": 4,
+    "movement": {
+      "walk": 6,
+      "run": 36
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Kludde",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!ccf7df36547e1d38"
+}

@@ -1,0 +1,143 @@
+{
+  "_id": "9935556710a26487",
+  "name": "Meistersinger",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A vast, wise Awakened whale (Megaptera palestrina) whose songs carry memory and meaning; it reincarnates alternately as male and female.</p><p><strong>Powers:</strong> Animal Control (Fish, Aquatic Mammals), Compulsion (Zone ×5), Dismissal (Zone ×5), Empathy (LOS), Engulf, Enhanced Senses (Sonar), Immunity to Normal Weapons, Influence (LOS), Magic Sense, Search, Sonic Projection</p><p><strong>Weaknesses:</strong> Dietary Requirement (Krill)</p><p><em>Attacks: 15D, Reach +1. Habitat: Cold/cool oceans. Range: Arctic oceans (autumn/winter), North and Baltic seas (spring/summer). 3D6 Initiative dice. Body 20, Strength 14, Essence 9 — whale-scale. Book Body 20/2. PAE p.69.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 20,
+      "mod": 0,
+      "value": 20,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "strength": {
+      "base": 14,
+      "mod": 0,
+      "value": 14,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "essence": {
+      "value": 9,
+      "max": 9
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 6
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 2,
+      "impact": 2
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 6,
+      "dice": 3,
+      "mod": 0,
+      "value": 6
+    },
+    "threatRating": 10,
+    "movement": {
+      "walk": 5,
+      "run": 25
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Meistersinger",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!9935556710a26487"
+}
