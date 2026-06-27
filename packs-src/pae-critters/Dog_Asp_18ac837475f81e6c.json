@@ -1,0 +1,143 @@
+{
+  "_id": "18ac837475f81e6c",
+  "name": "Dog Asp",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A slow-moving venomous Awakened viper (Vipera pseudocanis aspis) that nests and ambushes lone wanderers. Its mimicry can act as a hypnotic song with a slight change of tone.</p><p><strong>Powers:</strong> Concealment (Personal), Enhanced Senses (Thermographic Vision), Mimicry (Special), Venom</p><p><em>Attacks: 3L, Reach −1 (venomous bite). Habitat: Very varied, mountains to coast; prefers grasslands. Range: France and Italy, northern Spain; especially the Alps and Pyrenees. 2D6 Initiative dice. Book Intelligence 2/4. PAE p.37.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 4,
+      "mod": 0,
+      "value": 4,
+      "racial": 0
+    },
+    "strength": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "essence": {
+      "value": 6,
+      "max": 6
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 3
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 3,
+      "dice": 2,
+      "mod": 0,
+      "value": 3
+    },
+    "threatRating": 2,
+    "movement": {
+      "walk": 4,
+      "run": 4
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Dog Asp",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!18ac837475f81e6c"
+}

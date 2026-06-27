@@ -1,0 +1,143 @@
+{
+  "_id": "239f5f25b52b046d",
+  "name": "Fenrir Wolf",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A giant Norse wolf (Canis lupus aesir) of legend — fearsome, magically resistant, and most dangerous when wounded.</p><p><strong>Powers:</strong> Enhanced Physical Attributes (Strength, 2×/day for [Essence]2D6 turns), Enhanced Senses (Improved Hearing & Smell, Low-Light Vision), Fear (Zone ×3), Magical Resistance</p><p><em>Attacks: 10S (bite). Habitat: Forests and heavy woodlands. Range: Scandinavia, far eastern Europe, Germany (very rare). 2D6 Initiative dice. Book Intelligence 2/5. PAE p.43.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "strength": {
+      "base": 9,
+      "mod": 0,
+      "value": 9,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "essence": {
+      "value": 5,
+      "max": 5
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 4
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 4,
+      "dice": 2,
+      "mod": 0,
+      "value": 4
+    },
+    "threatRating": 5,
+    "movement": {
+      "walk": 5,
+      "run": 20
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Fenrir Wolf",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!239f5f25b52b046d"
+}

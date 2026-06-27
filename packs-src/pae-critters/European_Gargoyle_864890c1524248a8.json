@@ -1,0 +1,143 @@
+{
+  "_id": "864890c1524248a8",
+  "name": "European Gargoyle",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A stone-skinned winged gargoyle (Gargoyle saxsexus) that perches on tall derelict buildings. More dangerous the more it is injured.</p><p><strong>Powers:</strong> Concealment (Personal), Enhanced Physical Attributes (Strength, 1×/day for [Essence]D6 Combat Turns), Hardened Armor, Noxious Breath</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Nuisance), Vulnerability (Iron)</p><p><em>Attacks: 11S. Habitat: Tall buildings, usually derelict. Range: Rare throughout Europe; more common in Tir Nan Og and urban Germany. Flying Quickness multiplier is 4. 2D6 Initiative dice. Book Body 10/7 (Hardened Armor 7), Intelligence 2/5. PAE p.41.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "strength": {
+      "base": 8,
+      "mod": 0,
+      "value": 8,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 2,
+      "mod": 0,
+      "value": 2,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 5,
+      "mod": 0,
+      "value": 5,
+      "racial": 0
+    },
+    "essence": {
+      "value": 6,
+      "max": 6
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 4
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 7,
+      "impact": 7
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 4,
+      "dice": 2,
+      "mod": 0,
+      "value": 4
+    },
+    "threatRating": 5,
+    "movement": {
+      "walk": 5,
+      "run": 15
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "European Gargoyle",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!864890c1524248a8"
+}

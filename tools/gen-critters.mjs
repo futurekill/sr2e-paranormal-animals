@@ -207,6 +207,63 @@ const CRITTERS = [
     habitat: "Hills, barren lands, low mountain slopes",
     range: "Predominantly Spain; also southern Portugal, Gibraltar, southeast France, northwest Italy",
     notes: "Book Intelligence 2/3."
+  },
+
+  // Batch 4 — D/E/F (book p.35–43).
+  {
+    name: "Dakkaryne", page: 35,
+    b: 2, q: 4, moveMult: 4, s: 3, c: 1, i: 2, w: 2, e: 6, r: 4, initDice: 2,
+    attacks: "6L, Reach −1",
+    powers: "Alienation (Zone ×3), Corrosive Saliva, Corrosive Secretions, Engulf, Immunity to Pathogens, Immunity to Poisons, Search",
+    weak: "Dietary Requirement (Dioxins, trace only)",
+    desc: "A corrosive Awakened otter (Lutra ederis) of polluted waters, dissolving prey in acidic secretions. The old ones may possess shamanic talents.",
+    habitat: "Polluted acidic rivers, lakes, canals (not sea water)",
+    range: "Widespread throughout Europe",
+    notes: "Swimming Quickness multiplier 5. 2D6 Initiative dice. Book Intelligence 2/4."
+  },
+  {
+    name: "Dog Asp", page: 37,
+    b: 1, q: 4, moveMult: 1, s: 1, c: 1, i: 2, w: 2, e: 6, r: 3, initDice: 2,
+    attacks: "3L, Reach −1 (venomous bite)",
+    powers: "Concealment (Personal), Enhanced Senses (Thermographic Vision), Mimicry (Special), Venom",
+    weak: "None",
+    desc: "A slow-moving venomous Awakened viper (Vipera pseudocanis aspis) that nests and ambushes lone wanderers. Its mimicry can act as a hypnotic song with a slight change of tone.",
+    habitat: "Very varied, mountains to coast; prefers grasslands",
+    range: "France and Italy, northern Spain; especially the Alps and Pyrenees",
+    notes: "2D6 Initiative dice. Book Intelligence 2/4."
+  },
+  {
+    name: "Each-Uisge", page: 39,
+    b: 10, armor: 1, q: 4, moveMult: 6, s: 8, c: 1, i: 2, w: 3, e: 6, r: 4, initDice: 3,
+    attacks: "6S, Reach −1",
+    powers: "Compulsion (LOS), Engulf, Enhanced Movement, Enhanced Senses (Low-Light Vision, Sonar)",
+    weak: "Dietary Requirements (Human/Metahuman Flesh)",
+    desc: "A man-eating water-horse of Scottish legend: it lures riders, then its highly adhesive skin traps them as it drags them under to drown and devour.",
+    habitat: "Freshwater rivers, lochs, lakes, estuaries and fjords (seawater-tolerant)",
+    range: "Rare throughout northern Europe, especially Scotland and Tir Nan Og",
+    notes: "Anyone touching it makes a Strength Test (TN = its Essence) to free the affected body part or weapon. Swimming Quickness multiplier 5. 3D6 Initiative dice. Book Body 10/1 (Hardened Armor 1), Intelligence 2/4."
+  },
+  {
+    name: "European Gargoyle", page: 41,
+    b: 10, armor: 7, q: 5, moveMult: 3, s: 8, c: 1, i: 2, w: 5, e: 6, r: 4, initDice: 2,
+    attacks: "11S",
+    powers: "Concealment (Personal), Enhanced Physical Attributes (Strength, 1×/day for [Essence]D6 Combat Turns), Hardened Armor, Noxious Breath",
+    weak: "Allergy (Sunlight, Nuisance), Vulnerability (Iron)",
+    desc: "A stone-skinned winged gargoyle (Gargoyle saxsexus) that perches on tall derelict buildings. More dangerous the more it is injured.",
+    habitat: "Tall buildings, usually derelict",
+    range: "Rare throughout Europe; more common in Tir Nan Og and urban Germany",
+    notes: "Flying Quickness multiplier is 4. 2D6 Initiative dice. Book Body 10/7 (Hardened Armor 7), Intelligence 2/5."
+  },
+  {
+    name: "Fenrir Wolf", page: 43,
+    b: 10, q: 5, moveMult: 4, s: 9, c: 1, i: 2, w: 5, e: 5, r: 4, initDice: 2,
+    attacks: "10S (bite)",
+    powers: "Enhanced Physical Attributes (Strength, 2×/day for [Essence]2D6 turns), Enhanced Senses (Improved Hearing & Smell, Low-Light Vision), Fear (Zone ×3), Magical Resistance",
+    weak: "None",
+    desc: "A giant Norse wolf (Canis lupus aesir) of legend — fearsome, magically resistant, and most dangerous when wounded.",
+    habitat: "Forests and heavy woodlands",
+    range: "Scandinavia, far eastern Europe, Germany (very rare)",
+    notes: "2D6 Initiative dice. Book Intelligence 2/5."
   }
 ];
 
