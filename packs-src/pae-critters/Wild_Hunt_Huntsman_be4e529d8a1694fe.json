@@ -1,0 +1,143 @@
+{
+  "_id": "be4e529d8a1694fe",
+  "name": "Wild Hunt — Huntsman",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>A spectral huntsman of the Wild Hunt — one of the riders in the ghostly host.</p><p><strong>Powers:</strong> (Collective Wild Hunt powers — see the Hound)</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme)</p><p><em>Attacks: 10S. Habitat: No natural habitat. Range: Throughout Europe. Member of the Wild Hunt (Appendix I). Shares the collective powers. 3D6 Initiative dice. PAE p.120.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 8,
+      "mod": 0,
+      "value": 8,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 7,
+      "mod": 0,
+      "value": 7,
+      "racial": 0
+    },
+    "strength": {
+      "base": 8,
+      "mod": 0,
+      "value": 8,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 6,
+      "mod": 0,
+      "value": 6,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 8,
+      "mod": 0,
+      "value": 8,
+      "racial": 0
+    },
+    "essence": {
+      "value": 10,
+      "max": 10
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 8
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 8,
+      "dice": 3,
+      "mod": 0,
+      "value": 8
+    },
+    "threatRating": 6,
+    "movement": {
+      "walk": 7,
+      "run": 56
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Wild Hunt — Huntsman",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!be4e529d8a1694fe"
+}

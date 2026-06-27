@@ -1,0 +1,143 @@
+{
+  "_id": "a8c5bc7cff9f13c4",
+  "name": "Wild Hunt — Leader",
+  "type": "npc",
+  "img": "icons/svg/pawprint.svg",
+  "system": {
+    "biography": "<p>The lead huntsman of the Wild Hunt — the most powerful member of the host, immune to illusion and able to bend the storm and the beasts to its will.</p><p><strong>Powers:</strong> (Collective Wild Hunt powers) plus the Leader: Animal Control (all normal critters), Cold Aura (Personal), Electrical Projection, Paralyzing Touch, Weather Control; casts combat spells with Attribute/Skill ratings equal to its current Essence</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme)</p><p><em>Attacks: 12D. Habitat: No natural habitat. Range: Throughout Europe. Member of the Wild Hunt (Appendix I). The leader cannot be affected by illusion spells. 3D6 Initiative dice. Essence 12 (astral). PAE p.120.</em></p>",
+    "race": "critter",
+    "professionalRating": 0,
+    "body": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "quickness": {
+      "base": 8,
+      "mod": 0,
+      "value": 8,
+      "racial": 0
+    },
+    "strength": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "charisma": {
+      "base": 1,
+      "mod": 0,
+      "value": 1,
+      "racial": 0
+    },
+    "intelligence": {
+      "base": 7,
+      "mod": 0,
+      "value": 7,
+      "racial": 0
+    },
+    "willpower": {
+      "base": 10,
+      "mod": 0,
+      "value": 10,
+      "racial": 0
+    },
+    "essence": {
+      "value": 12,
+      "max": 12
+    },
+    "magic": {
+      "value": 0,
+      "max": 0,
+      "tradition": "none",
+      "type": "none",
+      "totem": ""
+    },
+    "reaction": {
+      "base": 0,
+      "mod": 0,
+      "value": 10
+    },
+    "conditionMonitor": {
+      "physical": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "stun": {
+        "value": 0,
+        "max": 10,
+        "overflow": 0
+      },
+      "overflow": 0
+    },
+    "armor": {
+      "ballistic": 0,
+      "impact": 0
+    },
+    "dicePools": {
+      "combat": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      },
+      "magic": {
+        "value": 0,
+        "max": 0,
+        "bonus": 0
+      }
+    },
+    "initiative": {
+      "base": 10,
+      "dice": 3,
+      "mod": 0,
+      "value": 10
+    },
+    "threatRating": 8,
+    "movement": {
+      "walk": 8,
+      "run": 64
+    }
+  },
+  "items": [],
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": "sr2e",
+    "systemVersion": "0.24.0",
+    "createdTime": 1700000000000,
+    "modifiedTime": 1700000000000,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "prototypeToken": {
+    "name": "Wild Hunt — Leader",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/pawprint.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff"
+    },
+    "disposition": -1
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_key": "!actors!a8c5bc7cff9f13c4"
+}

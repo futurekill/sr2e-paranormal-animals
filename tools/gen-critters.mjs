@@ -663,6 +663,74 @@ const CRITTERS = [
     habitat: "Woodland, forest",
     range: "Central and southern Europe",
     notes: "Stats are the female form. Male form: B1/1 Q4×4 S1 I1/4, 5L. Flying Quickness multiplier 4, but it can only fly once per hour for [Essence]D6 turns. Book Body 2/2 (female), Intelligence 2/5 (female)."
+  },
+
+  // Batch 12 — Appendix I: Faerie Critters (book p.116–120).
+  {
+    name: "Domovoi", page: 116,
+    b: 3, q: 4, moveMult: 5, s: 1, c: 4, i: 3, w: 2, e: 6, r: 5,
+    attacks: "5L, Reach −1",
+    powers: "Accident (Domain, Home), Concealment (Personal), Darkness, Enhanced Physical Attributes (Quickness, 4×/day for [Essence×Essence] turns), Enhanced Senses (Low-Light Vision), Guard, Influence (LOS), Manifestation, Search",
+    weak: "None",
+    desc: "A Slavic house-spirit (Anima mansuetas) — a free-willed brownie-like servant that adopts a rural household, guards it, and warns of danger. It fears cats and dogs.",
+    habitat: "Households in rural areas",
+    range: "Throughout Europe, especially eastern Europe",
+    notes: "Uses Influence to unsettle intruders, Accident to repel them, and Search to sense threats to its household. Book Intelligence 3/5."
+  },
+  {
+    name: "Knocker", page: 119,
+    b: 4, q: 3, moveMult: 3, s: 4, c: 2, i: 3, w: 6, e: 6, r: 3,
+    attacks: "6L, Reach −1",
+    powers: "Accident (Zone), Control Resistance, Enhanced Physical Attributes (Strength & Body, 4×/day for [Essence×Essence] turns), Enhanced Senses (Low-Light Vision, Thermographic Vision), Fading, Glamour (Zone ×4; negate with TN [3×Essence]+2), Magic Sense, Magical Resistance, Masking",
+    weak: "Allergy (Sunlight, Severe)",
+    desc: "A reclusive mining spirit (a knocker or rapper) that haunts mountains and mines, glamouring its territory and triggering 'accidental' rockfalls to drive off intruders.",
+    habitat: "Inside mountains and hills, inside mines",
+    range: "Throughout Europe",
+    notes: "Avoids all contact with (meta)humanity. Some possess shamanic talents (earth/mountain spirits). Book Intelligence 3/5."
+  },
+  {
+    name: "Wild Hunt — Hound", page: 120,
+    b: 4, q: 6, moveMult: 8, s: 4, c: 1, i: 2, w: 6, e: 6, r: 5, initDice: 3,
+    attacks: "7S",
+    powers: "(Collective) Alienation/Confusion/Glamour (Zone ×5), Fear (Zone ×2), Control Resistance, Fading, Enhanced Senses (Low-Light, Thermographic Vision), Immunity to Age/Cold/Fire/Normal Weapons/Pathogens/Poisons, Magic Sense, Magical Resistance, Manifestation, Search. Hounds also: Enhanced Senses (Improved Smell), Sonic Projection",
+    weak: "Allergy (Sunlight, Extreme)",
+    desc: "A spectral hound of the Wild Hunt — part of a ghostly host that rides the night sky. Travels (usually flying) over any terrain.",
+    habitat: "No natural habitat",
+    range: "Throughout Europe",
+    notes: "Member of the Wild Hunt (Appendix I). Cannot be affected by movement-altering magic. 3D6 Initiative dice. Book Intelligence 2/6."
+  },
+  {
+    name: "Wild Hunt — Steed", page: 120,
+    b: 9, q: 8, moveMult: 8, s: 9, c: 1, i: 2, w: 6, e: 6, r: 5, initDice: 3,
+    attacks: "6D, Reach +1",
+    powers: "(Collective Wild Hunt powers) plus Steeds: Flame Projection, Noxious Breath",
+    weak: "Allergy (Sunlight, Extreme)",
+    desc: "A fiery spectral steed of the Wild Hunt, carrying a ghostly huntsman across the sky and breathing flame.",
+    habitat: "No natural habitat",
+    range: "Throughout Europe",
+    notes: "Member of the Wild Hunt (Appendix I). Shares the host's collective powers (see the Hound). 3D6 Initiative dice. Book Intelligence 2/6."
+  },
+  {
+    name: "Wild Hunt — Huntsman", page: 120,
+    b: 8, q: 7, moveMult: 8, s: 8, c: 1, i: 6, w: 8, e: 10, r: 8, initDice: 3,
+    attacks: "10S",
+    powers: "(Collective Wild Hunt powers — see the Hound)",
+    weak: "Allergy (Sunlight, Extreme)",
+    desc: "A spectral huntsman of the Wild Hunt — one of the riders in the ghostly host.",
+    habitat: "No natural habitat",
+    range: "Throughout Europe",
+    notes: "Member of the Wild Hunt (Appendix I). Shares the collective powers. 3D6 Initiative dice."
+  },
+  {
+    name: "Wild Hunt — Leader", page: 120,
+    b: 10, q: 8, moveMult: 8, s: 10, c: 1, i: 7, w: 10, e: 12, r: 10, initDice: 3,
+    attacks: "12D",
+    powers: "(Collective Wild Hunt powers) plus the Leader: Animal Control (all normal critters), Cold Aura (Personal), Electrical Projection, Paralyzing Touch, Weather Control; casts combat spells with Attribute/Skill ratings equal to its current Essence",
+    weak: "Allergy (Sunlight, Extreme)",
+    desc: "The lead huntsman of the Wild Hunt — the most powerful member of the host, immune to illusion and able to bend the storm and the beasts to its will.",
+    habitat: "No natural habitat",
+    range: "Throughout Europe",
+    notes: "Member of the Wild Hunt (Appendix I). The leader cannot be affected by illusion spells. 3D6 Initiative dice. Essence 12 (astral)."
   }
 ];
 
