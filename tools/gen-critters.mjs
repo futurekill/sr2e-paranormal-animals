@@ -310,6 +310,74 @@ const CRITTERS = [
     habitat: "Marshes, swamps, heavily polluted and slow-moving freshwater",
     range: "Throughout southern Europe",
     notes: "Flying Quickness multiplier 5. 2D6 Initiative dice. Females temporarily drain 1 Essence per wound; the drained point boosts that female's Body for [Essence]D6 turns. Book Body 1/1, Intelligence 1/5."
+  },
+
+  // Batch 6 — G/H/I (book p.53–63).
+  {
+    name: "Goblin", page: 53,
+    b: 5, q: 4, moveMult: 2, s: 6, c: 1, i: 1, w: 5, e: 6, r: 4, initDice: 2,
+    attacks: "Humanoid (uses weapons)",
+    powers: "Enhanced Senses (Improved Smell & Taste), Essence Drain (Permanent), Fire Resistance",
+    weak: "Allergy (Sunlight, Mild), Vulnerability (Iron)",
+    desc: "A goblinized being (Homo bestius) created by a goblin-inducing HMHVV strain, spread directly from individual to individual. Drains Essence permanently.",
+    habitat: "Underground areas, urban or rural",
+    range: "Throughout Europe, predominantly Great Britain and northern Europe, near dwarf populations",
+    notes: "2D6 Initiative dice. Book Intelligence 1/5."
+  },
+  {
+    name: "Golden Boar", page: 55,
+    b: 6, armor: 1, q: 4, moveMult: 5, s: 8, c: 1, i: 2, w: 6, e: 6, r: 4, initDice: 2,
+    attacks: "6M (tusks)",
+    powers: "Concealment (Personal), Enhanced Physical Attributes (Quickness, 1×/day for [Essence]D6 turns), Magical Resistance, Regeneration",
+    weak: "None",
+    desc: "An Awakened boar (Sus aureus) with golden tusks prized for enchanting — each male tusk is a unit of virgin telesma (two make a magical dagger).",
+    habitat: "Heavy woodland, forest",
+    range: "Scandinavia, northeastern Russia",
+    notes: "2D6 Initiative dice. A male tusk counts as 1 unit of enchanting material and lowers enchanting target numbers by 1 (Grimoire II). Book Body 6/1, Intelligence 2/5."
+  },
+  {
+    name: "Gorgon", page: 57,
+    b: 11, armor: 2, q: 4, moveMult: 4, s: 10, c: 1, i: 2, w: 4, e: 6, r: 4,
+    attacks: "8D, Reach +1",
+    powers: "Electrical Projection, Noxious Breath, Paralyzing Touch, Petrification, Petrifying Gaze, Venom, Weather Control",
+    weak: "Dietary Requirement (heavy petroleum oils)",
+    desc: "A petrifying sea-dragon (Draco odiosus fabulosus). It walks up to a victim, petrifies them with its gaze, and pulls the head clean off.",
+    habitat: "Coastal waters",
+    range: "Mediterranean and Black seas",
+    notes: "Swimming Quickness multiplier 5. Book Body 11/2, Intelligence 2/4."
+  },
+  {
+    name: "Grandfather Elk", page: 59,
+    b: 9, q: 4, moveMult: 5, s: 7, c: 3, i: 3, w: 6, e: 6, r: 5,
+    attacks: "8S, Reach +1 (antlers)",
+    powers: "Animal Control (Elk, other deer), Dismissal (LOS), Empathy (LOS), Enhanced Senses (Thermographic Vision), Immunity to Age, Magical Guard, Magical Resistance",
+    weak: "None",
+    desc: "A nearly-immortal, wise Awakened elk (Alces alces vetustus) — a gentle protector of its herd, with one deadly enemy in the fenrir wolf.",
+    habitat: "Marshland, woodland",
+    range: "Scandinavia (except Denmark), northwest and western Russia, northern Estonia",
+    notes: "The Quickness multiplier applies to both running and swimming. Book Intelligence 3/6."
+  },
+  {
+    name: "Hydra Wyrm", page: 61,
+    b: 12, armor: 2, q: 3, moveMult: 4, s: 9, c: 1, i: 1, w: 3, e: 6, r: 4,
+    attacks: "10M, Reach +2 (multiple heads)",
+    powers: "None",
+    weak: "None",
+    desc: "A multi-headed aquatic wyrm (Pleuracanthus polycaput) that develops a taste for flesh and savages anyone near its waters.",
+    habitat: "Deep lakes, deep river estuaries (rare)",
+    range: "Greece",
+    notes: "Attacks within a 4 m radius (neck length) with 1D6 randomly-chosen heads per Complex Action; destroying one head doesn't stop the others. No more than 2 bites on a single man-sized target per melee Action. Swimming Quickness multiplier 7. Book Body 12/2, Intelligence 1/3."
+  },
+  {
+    name: "Imperial Eagle", page: 63,
+    b: 3, q: 5, moveMult: 3, s: 3, c: 4, i: 2, w: 6, e: 6, r: 4, initDice: 3,
+    attacks: "5M (talons)",
+    powers: "Empathy (LOS), Enhanced Senses (Depth Perception), Fire Resistance, Influence (LOS), Magical Resistance, Search, Weather Control",
+    weak: "Vulnerability (Poisons)",
+    desc: "A majestic Awakened eagle (Aquila augustus) revered as a wise 'Old One' and medicine-lodge spirit; it senses approaching storms.",
+    habitat: "Hills, mountains, forests",
+    range: "Europe",
+    notes: "Flying Quickness multiplier 7. 3D6 Initiative dice. Book Intelligence 2/4."
   }
 ];
 
