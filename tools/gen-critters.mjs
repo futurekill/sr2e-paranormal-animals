@@ -150,6 +150,63 @@ const CRITTERS = [
     habitat: "Woodland, hedgerows, grassland, rough grassland, moors",
     range: "Northern Europe, most common in Eastern Europe",
     notes: "2D6 Initiative dice. Armor protects against the latched-on damage. Book Intelligence 2/4."
+  },
+
+  // Batch 3 — B/C (book p.25–33).
+  {
+    name: "Burrowing Beaver", page: 25,
+    b: 3, q: 4, moveMult: 4, s: 3, c: 1, i: 2, w: 2, e: 6, r: 4,
+    attacks: "4M, Reach −1",
+    powers: "Concealment (Personal), Enhanced Movement, Enhanced Senses (Improved Smell, Sonar)",
+    weak: "None",
+    desc: "A large Awakened beaver (Castor efforderis) that digs extensive tunnels and collapses them on intruders. Russian specimens are twice the size and ferocious enough to kill a bear one-on-one.",
+    habitat: "In and around rivers and lakes, in wooded country",
+    range: "Norway, Sweden, the Rhône and Elbe valleys in Germany (very rare), central Russia",
+    notes: "The Quickness multiplier applies to both running and swimming. Book Intelligence 2/4."
+  },
+  {
+    name: "Centaur", page: 27,
+    b: 10, q: 4, moveMult: 5, s: 7, c: 1, i: 3, w: 3, e: 6, r: 4, initDice: 2,
+    attacks: "6S, Reach +1",
+    powers: "Enhanced Senses (Low-Light Vision, Thermographic Vision), Magic Sense, Search",
+    weak: "None",
+    desc: "A horse-bodied Awakened creature (Equus sagittarius); some are seen armed with polearms and armour near draco lairs.",
+    habitat: "Grasslands, moors, woodland, low-lying hills",
+    range: "Greece, Macedonia, southern Albania",
+    notes: "2D6 Initiative dice. Book Intelligence 3/5."
+  },
+  {
+    name: "Cerberus Hound", page: 29,
+    b: 6, q: 4, moveMult: 5, s: 6, c: 1, i: 2, w: 4, e: 6, r: 5, initDice: 3,
+    attacks: "8M (three heads — up to 3 bites in one Complex Action, same target)",
+    powers: "Concealment (Personal), Corrosive Saliva, Enhanced Physical Attributes (Strength, 3×/day for [Essence]D6 turns), Enhanced Movement, Enhanced Reactions (3×/day for [Essence]D6 turns), Enhanced Senses (Improved Hearing & Smell, Low-Light Vision, Thermographic Vision), Immunity to Cold, Immunity to Fire",
+    weak: "None",
+    desc: "A three-headed Awakened dog (Canis cerberi), impossible to surprise and often magically active. Blow off one head and it keeps coming.",
+    habitat: "Rocky hills, plateaux, mountains, barren land",
+    range: "Greece, western Bulgaria, southern Balkan states",
+    notes: "3D6 Initiative dice. Book Intelligence 2/6."
+  },
+  {
+    name: "Corps Cadavre", page: 31,
+    b: 2, q: 1, moveMult: 2, s: 2, c: 1, i: 1, w: 6, e: 0, r: 1,
+    attacks: "Humanoid (uses whatever weapon it is given)",
+    powers: "Immunity to Pathogens, Immunity to Poisons, Immunity to all mana spells and similar powers (empathy, hypnotic song, illusion, etc.)",
+    weak: "Allergy (Sunlight, Severe)",
+    desc: "A zombie — an animated corpse conditioned for simple labour or security. It never tires and feels no pain, but is slow and only semi-intelligent.",
+    habitat: "No natural habitat",
+    range: "Observed in southern France, northeastern Spain",
+    notes: "Body and Strength are the original body's, −1 (minimum 1) — set them to match the corpse. Essence 0; takes no wound modifiers and ignores damage until a Deadly wound incapacitates it."
+  },
+  {
+    name: "Crested Barbarian", page: 33,
+    b: 5, q: 4, moveMult: 4, s: 4, c: 1, i: 2, w: 2, e: 6, r: 3,
+    attacks: "4M",
+    powers: "Enhanced Physical Attributes (Strength, 1×/day for [Essence+2]D6 turns), Enhanced Senses (Improved Smell, Low-Light Vision), Fear (LOS), Pestilence (roll 2D6; on a 6 the individual has this power)",
+    weak: "None",
+    desc: "An Awakened macaque (Macaca cristatus) with a vicious temperament; some carry a horrible plague virus (Pestilence). Several escaped the Cordoba labs in 2051.",
+    habitat: "Hills, barren lands, low mountain slopes",
+    range: "Predominantly Spain; also southern Portugal, Gibraltar, southeast France, northwest Italy",
+    notes: "Book Intelligence 2/3."
   }
 ];
 
