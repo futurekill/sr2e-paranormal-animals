@@ -3,7 +3,7 @@
 import { readdirSync, readFileSync, statSync } from "node:fs";
 import { join } from "node:path";
 const ROOT = "packs-src";
-const COLLECTION = { "rbb-vehicles": "actors" };
+const COLLECTION = { "pae-critters": "actors" };
 let problems = 0;
 const note = (m) => { console.error("  ✗ " + m); problems++; };
 let packs;
