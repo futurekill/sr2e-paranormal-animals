@@ -16,3 +16,8 @@ _work/
 !assets/icons/*
 
 .DS_Store
+
+# LevelDB build artifact — Foundry recompacts it every session, churning the
+# tree with no content change. packs-src/ is the source; the release workflow
+# rebuilds packs/ from it.
+packs/
