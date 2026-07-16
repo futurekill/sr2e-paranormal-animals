@@ -37,8 +37,8 @@ biography, armor, threatRating, movement. Prototype token art where available.
 
 ## Build workflow
 `packs-src/` (per-document JSON, source of truth) → `npm run build-packs` →
-`packs/` (LevelDB; committed, like RBB — a gitignored build artifact can get
-wiped and leave Foundry showing an empty compendium). `npm run validate` after
+`packs/` (LevelDB; gitignored build artifact — rebuild after editing sources,
+Foundry reads the LevelDB not the JSON). `npm run validate` after
 each build. Build batched alphabetically; a `tools/gen-critters.mjs` generator
 keeps it repeatable. Commit each batch. Releases fire on a `vX.Y.Z` tag push.
 
