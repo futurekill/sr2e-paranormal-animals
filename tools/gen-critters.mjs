@@ -2,8 +2,40 @@
 // Stats transcribed from the Paranormal Animals of Europe stat blocks (FASA 7112);
 // read the page renders in _work/ — never trust OCR for numbers. Run after editing
 // CRITTERS: `node tools/gen-critters.mjs && npm run build-packs && npm run validate`.
-import { writeFileSync, mkdirSync } from "node:fs";
+import { writeFileSync, mkdirSync, existsSync} from "node:fs";
 import crypto from "node:crypto";
+
+// ── Portrait paths ───────────────────────────────────────────────────────────
+// The generator MUST derive these itself. It rewrites packs-src wholesale, so
+// hardcoding a placeholder here means every re-run silently un-wires whatever
+// set-portraits.mjs had wired — the JSON stays valid, the packs still build, and
+// the only symptom is default icons in Foundry. That exact failure cost
+// sr2e-rigger-black-book all 69 of its vehicle portraits between 0.4.0 and 0.5.0,
+// and nobody noticed until a vehicle was needed at the table.
+//
+// The slug rule is set-portraits.mjs's, kept identical on purpose: two rules that
+// drift is the same bug wearing a different hat.
+const PLACEHOLDER = "icons/svg/pawprint.svg";
+const ART_DIR = "assets/creature_portraits";
+const PREFIX = "modules/sr2e-paranormal-animals";
+
+/** "Wild Hunt — Huntsman" → "wild-hunt-huntsman" ; "Nimue's Salamander" → "nimues-salamander" */
+const slugify = (name) => name
+  .toLowerCase()
+  .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+  .replace(/['\u2019]/g, "")
+  .replace(/[^a-z0-9]+/g, "-")
+  .replace(/^-+|-+$/g, "");
+
+// A Set, because portraitFor() is called twice per critter (portrait + token
+// texture) and a list would report every name twice.
+const missingArt = new Set();
+function portraitFor(name) {
+  const rel = `${ART_DIR}/${slugify(name)}.webp`;
+  if (existsSync(rel)) return `${PREFIX}/${rel}`;
+  missingArt.add(name);
+  return PLACEHOLDER;
+}
 
 const DIR = "packs-src/pae-critters";
 mkdirSync(DIR, { recursive: true });
@@ -32,7 +64,7 @@ function critter(x) {
     (x.notes ? ` ${x.notes}` : "") +
     ` PAE p.${x.page}.</em></p>`;
   return {
-    _id: id, name: x.name, type: "npc", img: "icons/svg/pawprint.svg",
+    _id: id, name: x.name, type: "npc", img: portraitFor(x.name),
     system: {
       biography: bio, race: "critter", professionalRating: 0,
       body: attr(x.b), quickness: attr(x.q), strength: attr(x.s),
@@ -50,7 +82,7 @@ function critter(x) {
     items: [], effects: [], folder: null, sort: 0, flags: {}, _stats: STATS,
     prototypeToken: {
       name: x.name, displayName: 0, actorLink: false, width: 1, height: 1,
-      texture: { src: "icons/svg/pawprint.svg", anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "contain", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff" },
+      texture: { src: portraitFor(x.name), anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "contain", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff" },
       disposition: -1
     },
     ownership: { default: 0 }, _key: `!actors!${id}`
@@ -740,3 +772,13 @@ for (const c of CRITTERS) {
   writeFileSync(`${DIR}/${safe}_${w._id}.json`, JSON.stringify(w, null, 2) + "\n");
 }
 console.log(`wrote ${CRITTERS.length} critter(s) to ${DIR}`);
+
+// Loud on fallback. A silent placeholder is exactly how the RBB portraits went
+// missing for a whole release.
+if (missingArt.size) {
+  console.warn(`\n  ${missingArt.size} critter(s) fell back to the placeholder icon:`);
+  for (const n of missingArt) console.warn(`    - ${n}  (expected ${ART_DIR}/${slugify(n)}.webp)`);
+  console.warn("  Generate that art, then re-run this script — it wires portraits automatically.\n");
+} else {
+  console.log("  every critter resolved to real portrait art ✓");
+}
