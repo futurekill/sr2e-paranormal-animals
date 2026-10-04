@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 — 2026-10-04
 
 ### Added — a portrait for every critter
 - All 59 critters have a painted portrait and token, replacing the placeholder
