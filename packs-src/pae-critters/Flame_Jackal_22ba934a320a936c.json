@@ -2,7 +2,7 @@
   "_id": "22ba934a320a936c",
   "name": "Flame Jackal",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/flame-jackal.webp",
   "system": {
     "biography": "<p>A jackal (Canis igni) that projects fire, gaining the ability at maturity. It uses decoy strategies rather than its flames to keep predators from its young.</p><p><strong>Powers:</strong> Flame Projection (special — see notes), Immunity to Fire</p><p><em>Attacks: 5L (bite). Habitat: Steppe, scrub, low hills, outskirts of urban areas. Range: Greece, Spain, Balkan states (rare). Can project an aura of flame around itself to a distance of (Essence ÷ 2) metres; neither its own flames nor another flame jackal's harm it. Book Intelligence 2/4. PAE p.45.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/flame-jackal.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

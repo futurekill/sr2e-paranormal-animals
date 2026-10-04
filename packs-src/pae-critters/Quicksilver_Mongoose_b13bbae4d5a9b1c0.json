@@ -2,7 +2,7 @@
   "_id": "b13bbae4d5a9b1c0",
   "name": "Quicksilver Mongoose",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/quicksilver-mongoose.webp",
   "system": {
     "biography": "<p>A lightning-fast Awakened mongoose (Herpestes illustris) and consummate snake-killer that dances its prey into a stupor before the kill.</p><p><strong>Powers:</strong> Accident (Zone), Enhanced Movement, Hypnotic Dance (as Hypnotic Song except range; affects snakes and creatures under 1 m), Immunity to Poisons (wholly immune to snake venom)</p><p><strong>Weaknesses:</strong> Dietary Requirement (snakes — venom and hepatic enzymes)</p><p><em>Attacks: 3L, Reach −1 (bite). Habitat: Scrub and open woodland. Range: Spain, Portugal, southern France, Sicily, Sardinia, southern Italy. Vs a hypnotized snake the bite is 5D; vs any other hypnotized target 6S. 3D6 Initiative dice. Book Intelligence 2/5. PAE p.85.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/quicksilver-mongoose.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

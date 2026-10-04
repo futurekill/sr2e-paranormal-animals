@@ -2,7 +2,7 @@
   "_id": "b6b0f8db0859f027",
   "name": "Wild Hunt — Hound",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-hound.webp",
   "system": {
     "biography": "<p>A spectral hound of the Wild Hunt — part of a ghostly host that rides the night sky. Travels (usually flying) over any terrain.</p><p><strong>Powers:</strong> (Collective) Alienation/Confusion/Glamour (Zone ×5), Fear (Zone ×2), Control Resistance, Fading, Enhanced Senses (Low-Light, Thermographic Vision), Immunity to Age/Cold/Fire/Normal Weapons/Pathogens/Poisons, Magic Sense, Magical Resistance, Manifestation, Search. Hounds also: Enhanced Senses (Improved Smell), Sonic Projection</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme)</p><p><em>Attacks: 7S. Habitat: No natural habitat. Range: Throughout Europe. Member of the Wild Hunt (Appendix I). Cannot be affected by movement-altering magic. 3D6 Initiative dice. Book Intelligence 2/6. PAE p.120.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-hound.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

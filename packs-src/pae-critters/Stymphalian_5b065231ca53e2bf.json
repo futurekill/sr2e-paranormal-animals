@@ -2,7 +2,7 @@
   "_id": "5b065231ca53e2bf",
   "name": "Stymphalian",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/stymphalian.webp",
   "system": {
     "biography": "<p>A metal-feathered marsh bird (Ardea foedus) of Greek myth that launches its razor feathers like arrows.</p><p><strong>Powers:</strong> Enhanced Senses (Improved Hearing), Noxious Breath</p><p><strong>Weaknesses:</strong> Sonic (loud amplified noise)</p><p><em>Attacks: 5L melee (beak, claws); 4L ranged (arrow feathers). Habitat: Marshes, swamps, estuaries, rivers, coastal waters. Range: Scattered throughout southern Europe. Ambient noise above 90 dB forces a Body Resistance Test vs 3L and a Willpower (4) Test; high noise (110 dB+) drives it off and raises others' target numbers. Arrow-feather range table (E = Essence): Short 0–E, Medium E+1–2E, Long 2E+1–4E, Extreme 4E+1–6E. Flying Quickness multiplier 7. Book Intelligence 2/4. PAE p.101.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/stymphalian.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

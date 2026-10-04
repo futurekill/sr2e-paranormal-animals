@@ -2,7 +2,7 @@
   "_id": "d00736333805579d",
   "name": "Nosferatu",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/nosferatu.webp",
   "system": {
     "biography": "<p>A blind vampire variant (Sanguisuga europa caecus) that begins as an infected metahuman, keeping most of its attributes. Unlike the common vampire it can drain Essence permanently without limit.</p><p><strong>Powers:</strong> Compulsion (LOS), Enhanced Physical Attributes (Body & Strength, 2×/day for [Essence]D6 turns), Enhanced Senses (Improved Hearing, Low-Light Vision, Thermographic Vision), Essence Drain (Permanent & Temporary), Fear (LOS), Immunity to Age, Immunity to Pathogens, Immunity to Poison/Infection, Influence (LOS), Magical Resistance, Regeneration</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme), Essence Loss (1 point per 1D6+1 months)</p><p><em>Attacks: Humanoid (+ Essence Drain). Habitat: Urban (lives among humans). Range: Central and eastern Europe. Begins as a character — use the higher of the host's attributes or these minimums: Body 4, Strength 4, Charisma 5, Intelligence 3, Willpower 5, Essence min 7. Dual-natured. 2D6 Initiative dice. PAE p.75.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/nosferatu.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

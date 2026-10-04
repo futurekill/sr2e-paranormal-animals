@@ -2,7 +2,7 @@
   "_id": "2c233924252f5e41",
   "name": "Cerberus Hound",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/cerberus-hound.webp",
   "system": {
     "biography": "<p>A three-headed Awakened dog (Canis cerberi), impossible to surprise and often magically active. Blow off one head and it keeps coming.</p><p><strong>Powers:</strong> Concealment (Personal), Corrosive Saliva, Enhanced Physical Attributes (Strength, 3×/day for [Essence]D6 turns), Enhanced Movement, Enhanced Reactions (3×/day for [Essence]D6 turns), Enhanced Senses (Improved Hearing & Smell, Low-Light Vision, Thermographic Vision), Immunity to Cold, Immunity to Fire</p><p><em>Attacks: 8M (three heads — up to 3 bites in one Complex Action, same target). Habitat: Rocky hills, plateaux, mountains, barren land. Range: Greece, western Bulgaria, southern Balkan states. 3D6 Initiative dice. Book Intelligence 2/6. PAE p.29.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/cerberus-hound.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

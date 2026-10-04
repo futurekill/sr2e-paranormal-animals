@@ -2,7 +2,7 @@
   "_id": "3a355e475402bcd6",
   "name": "Wild Minotaur",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-minotaur.webp",
   "system": {
     "biography": "<p>A savage bull-headed brute (Aurochs atrox) lurking in caves and tunnels; it is unaffected by all illusion spells.</p><p><strong>Powers:</strong> Confusion (Zone ×3), Enhanced Physical Attributes (Strength, 3×/day for [Essence]D6 turns), Enhanced Senses (Low-Light Vision, Thermographic Vision)</p><p><em>Attacks: 7D, Reach +1. Habitat: Caves, underground excavations. Range: Greece (very rare), Albania, Romania, Poland. Book Body 12/1, Intelligence 1/6. PAE p.109.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-minotaur.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

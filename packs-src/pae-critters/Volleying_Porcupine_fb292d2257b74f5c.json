@@ -2,7 +2,7 @@
   "_id": "fb292d2257b74f5c",
   "name": "Volleying Porcupine",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/volleying-porcupine.webp",
   "system": {
     "biography": "<p>An Awakened porcupine (Hystrix sagittarius) that launches volleys of quills at attackers; a melee attacker risks getting stuck.</p><p><strong>Powers:</strong> Enhanced Senses (Low-Light Vision), Spraying (Range: ¼ normal)</p><p><strong>Weaknesses:</strong> Dietary Requirement (Salt)</p><p><em>Attacks: 3L melee; quill volley 6L (close) / 5L (far). Habitat: Rocky terrain, woodland. Range: Hot southern European countries. Melee attackers make a Quickness Test (TN = its Essence) or take 6L from quills. Ranged quill range table (E = Essence): Short 0–(E−1) 6L, Medium E–(2E−2) 6L, Long (2E−1)–3E 5L, Extreme (3E+1)–(4E−2) 5L; victim Quickness Test (TN = Essence+1) to evade. Book Intelligence 1/3. PAE p.107.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/volleying-porcupine.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

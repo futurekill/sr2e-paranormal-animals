@@ -81,7 +81,7 @@ function critter(x) {
     },
     items: [], effects: [], folder: null, sort: 0, flags: {}, _stats: STATS,
     prototypeToken: {
-      name: x.name, displayName: 0, actorLink: false, width: 1, height: 1,
+      name: x.name, displayName: 0, actorLink: false, width: 1, height: 1, lockRotation: true,
       texture: { src: portraitFor(x.name), anchorX: 0.5, anchorY: 0.5, offsetX: 0, offsetY: 0, fit: "contain", scaleX: 1, scaleY: 1, rotation: 0, tint: "#ffffff" },
       disposition: -1
     },

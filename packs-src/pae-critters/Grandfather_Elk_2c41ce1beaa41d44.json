@@ -2,7 +2,7 @@
   "_id": "2c41ce1beaa41d44",
   "name": "Grandfather Elk",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/grandfather-elk.webp",
   "system": {
     "biography": "<p>A nearly-immortal, wise Awakened elk (Alces alces vetustus) — a gentle protector of its herd, with one deadly enemy in the fenrir wolf.</p><p><strong>Powers:</strong> Animal Control (Elk, other deer), Dismissal (LOS), Empathy (LOS), Enhanced Senses (Thermographic Vision), Immunity to Age, Magical Guard, Magical Resistance</p><p><em>Attacks: 8S, Reach +1 (antlers). Habitat: Marshland, woodland. Range: Scandinavia (except Denmark), northwest and western Russia, northern Estonia. The Quickness multiplier applies to both running and swimming. Book Intelligence 3/6. PAE p.59.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/grandfather-elk.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "01f6497382bcc395",
   "name": "Burrowing Beaver",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/burrowing-beaver.webp",
   "system": {
     "biography": "<p>A large Awakened beaver (Castor efforderis) that digs extensive tunnels and collapses them on intruders. Russian specimens are twice the size and ferocious enough to kill a bear one-on-one.</p><p><strong>Powers:</strong> Concealment (Personal), Enhanced Movement, Enhanced Senses (Improved Smell, Sonar)</p><p><em>Attacks: 4M, Reach −1. Habitat: In and around rivers and lakes, in wooded country. Range: Norway, Sweden, the Rhône and Elbe valleys in Germany (very rare), central Russia. The Quickness multiplier applies to both running and swimming. Book Intelligence 2/4. PAE p.25.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/burrowing-beaver.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

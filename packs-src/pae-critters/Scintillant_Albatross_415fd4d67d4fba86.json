@@ -2,7 +2,7 @@
   "_id": "415fd4d67d4fba86",
   "name": "Scintillant Albatross",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/scintillant-albatross.webp",
   "system": {
     "biography": "<p>A great Awakened albatross (Diomedea scintillans) of the northern seas whose scintillating plumage can dazzle and blind; at the equinox the males turn deadly.</p><p><strong>Powers:</strong> Animal Control (Sea Birds), Empathy (LOS), Enhanced Senses (Low-Light Vision), Influence (LOS); at the equinox (2–5 days) males also gain Flame Projection, Immunity to Fire, and a blinding power</p><p><strong>Weaknesses:</strong> Dietary Requirement (Sea Fish)</p><p><em>Attacks: 5L. Habitat: Oceans and seashore cliffs. Range: Flies throughout western and southern Europe; breeds in Scotland and Norway. The blinding feathers cause temporary blindness if observed within 270 m (350 m in bright light); flare-compensation cybereyes are immune. Flying Quickness multiplier 5. Book Intelligence 2/4. PAE p.89.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/scintillant-albatross.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

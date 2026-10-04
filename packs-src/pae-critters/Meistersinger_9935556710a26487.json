@@ -2,7 +2,7 @@
   "_id": "9935556710a26487",
   "name": "Meistersinger",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/meistersinger.webp",
   "system": {
     "biography": "<p>A vast, wise Awakened whale (Megaptera palestrina) whose songs carry memory and meaning; it reincarnates alternately as male and female.</p><p><strong>Powers:</strong> Animal Control (Fish, Aquatic Mammals), Compulsion (Zone ×5), Dismissal (Zone ×5), Empathy (LOS), Engulf, Enhanced Senses (Sonar), Immunity to Normal Weapons, Influence (LOS), Magic Sense, Search, Sonic Projection</p><p><strong>Weaknesses:</strong> Dietary Requirement (Krill)</p><p><em>Attacks: 15D, Reach +1. Habitat: Cold/cool oceans. Range: Arctic oceans (autumn/winter), North and Baltic seas (spring/summer). 3D6 Initiative dice. Body 20, Strength 14, Essence 9 — whale-scale. Book Body 20/2. PAE p.69.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/meistersinger.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "642344da1511ba55",
   "name": "Merlin Hawk",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/merlin-hawk.webp",
   "system": {
     "biography": "<p>A magically-active Awakened falcon (Falco velox) that casts spells and works alongside the druids and bards of Wales, Scotland and Brittany.</p><p><strong>Powers:</strong> Animal Control (Avian), Magical Resistance; magically active — casts Detection, Illusion and Manipulation spells. Equivalent magical skills: Magic 5+1D6, Sorcery 4+1D6, Conjuring 4+1D6 (air elementals)</p><p><strong>Weaknesses:</strong> Vulnerability (Willow-wood weapons, Poisons)</p><p><em>Attacks: 2L, Reach −1 (talons). Habitat: Grassland, hills, moorland; coasts in winter. Range: Wales, Scotland, Tir Nan Og, Brittany, Normandy. Flying Quickness multiplier 8. 3D6 Initiative dice. Detects Essence within [Essence] miles and reacts badly to low-Essence (cybered/vampiric) beings. Book Intelligence 4/8. PAE p.71.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/merlin-hawk.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

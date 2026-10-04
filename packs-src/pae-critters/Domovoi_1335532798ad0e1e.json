@@ -2,7 +2,7 @@
   "_id": "1335532798ad0e1e",
   "name": "Domovoi",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/domovoi.webp",
   "system": {
     "biography": "<p>A Slavic house-spirit (Anima mansuetas) — a free-willed brownie-like servant that adopts a rural household, guards it, and warns of danger. It fears cats and dogs.</p><p><strong>Powers:</strong> Accident (Domain, Home), Concealment (Personal), Darkness, Enhanced Physical Attributes (Quickness, 4×/day for [Essence×Essence] turns), Enhanced Senses (Low-Light Vision), Guard, Influence (LOS), Manifestation, Search</p><p><em>Attacks: 5L, Reach −1. Habitat: Households in rural areas. Range: Throughout Europe, especially eastern Europe. Uses Influence to unsettle intruders, Accident to repel them, and Search to sense threats to its household. Book Intelligence 3/5. PAE p.116.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/domovoi.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

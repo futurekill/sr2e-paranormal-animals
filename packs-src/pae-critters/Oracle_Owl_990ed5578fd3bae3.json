@@ -2,7 +2,7 @@
   "_id": "990ed5578fd3bae3",
   "name": "Oracle Owl",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/oracle-owl.webp",
   "system": {
     "biography": "<p>A prophetic Awakened owl (Bubo ignavus maiusculus) reputed for precognition — its acute senses pick up faint seismic and pollutant cues before disaster strikes.</p><p><strong>Powers:</strong> Animal Control (Avians), Empathy, Enhanced Senses (Improved Hearing & Smell, Low-Light Vision, Tactile Sense, Thermographic Vision), Magic Sense, Magical Resistance, Search, Silence (Zone)</p><p><strong>Weaknesses:</strong> Vulnerability (Poisons)</p><p><em>Attacks: 5L (talons). Habitat: Dense woodland (wild). Range: Southern and central Europe. Casts detection spells at Force = 2× its Essence, reaching 2× Essence kilometres. Flying Quickness multiplier 6. 3D6 Initiative dice. Book Intelligence 3/6. PAE p.77.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/oracle-owl.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

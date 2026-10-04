@@ -2,7 +2,7 @@
   "_id": "d9c353228353168d",
   "name": "Fomorian",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/fomorian.webp",
   "system": {
     "biography": "<p>A savage giant of Irish myth (Homo foeditas) — a hulking, corrosive bog-dweller, often confused with trolls and the dzoo-noo-qua.</p><p><strong>Powers:</strong> Corrosive Secretions, Enhanced Physical Attributes (Strength, 3×/day, increased by [Essence÷2] for [Essence]D6 turns), Enhanced Senses (Thermographic Vision), Magical Resistance</p><p><strong>Weaknesses:</strong> Allergy (Air Pollution, Severe), Allergy (Sunlight, Nuisance)</p><p><em>Attacks: 9D, Reach +1. Habitat: Marshes, peat bogs, woodland, forest. Range: Tir Nan Og. Book Body 10/3 (Hardened Armor 3). PAE p.47.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/fomorian.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

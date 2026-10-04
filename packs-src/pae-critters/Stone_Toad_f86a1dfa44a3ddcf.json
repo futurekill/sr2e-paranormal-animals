@@ -2,7 +2,7 @@
   "_id": "f86a1dfa44a3ddcf",
   "name": "Stone Toad",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/stone-toad.webp",
   "system": {
     "biography": "<p>A magical toad (Bombina invisus) whose skin secretes acid when startled and a sebaceous hallucinogen when calm; its forebrain bone is prized for enchanting.</p><p><strong>Powers:</strong> Corrosive Secretions</p><p><em>Attacks: 1L, Reach −1. Habitat: Varied, but always moist terrain. Range: Throughout Europe, except very hot/dry countries. The hallucinogen forces a Body Test (TN = the toad's Essence); failure gives the victim the Illusion power for [Essence] hours. The forebrain bone is 1 mineral unit of enchanting material (−1 enchanting TN). Eating one inflicts 8S toxin. Swimming Quickness multiplier 3. Book Intelligence 1/4. PAE p.97.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/stone-toad.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

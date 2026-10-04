@@ -2,7 +2,7 @@
   "_id": "be4e529d8a1694fe",
   "name": "Wild Hunt — Huntsman",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-huntsman.webp",
   "system": {
     "biography": "<p>A spectral huntsman of the Wild Hunt — one of the riders in the ghostly host.</p><p><strong>Powers:</strong> (Collective Wild Hunt powers — see the Hound)</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme)</p><p><em>Attacks: 10S. Habitat: No natural habitat. Range: Throughout Europe. Member of the Wild Hunt (Appendix I). Shares the collective powers. 3D6 Initiative dice. PAE p.120.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-huntsman.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

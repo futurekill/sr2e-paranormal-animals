@@ -2,7 +2,7 @@
   "_id": "a8c5bc7cff9f13c4",
   "name": "Wild Hunt — Leader",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-leader.webp",
   "system": {
     "biography": "<p>The lead huntsman of the Wild Hunt — the most powerful member of the host, immune to illusion and able to bend the storm and the beasts to its will.</p><p><strong>Powers:</strong> (Collective Wild Hunt powers) plus the Leader: Animal Control (all normal critters), Cold Aura (Personal), Electrical Projection, Paralyzing Touch, Weather Control; casts combat spells with Attribute/Skill ratings equal to its current Essence</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme)</p><p><em>Attacks: 12D. Habitat: No natural habitat. Range: Throughout Europe. Member of the Wild Hunt (Appendix I). The leader cannot be affected by illusion spells. 3D6 Initiative dice. Essence 12 (astral). PAE p.120.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-leader.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

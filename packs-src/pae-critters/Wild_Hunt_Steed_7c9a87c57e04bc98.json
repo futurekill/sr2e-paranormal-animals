@@ -2,7 +2,7 @@
   "_id": "7c9a87c57e04bc98",
   "name": "Wild Hunt — Steed",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-steed.webp",
   "system": {
     "biography": "<p>A fiery spectral steed of the Wild Hunt, carrying a ghostly huntsman across the sky and breathing flame.</p><p><strong>Powers:</strong> (Collective Wild Hunt powers) plus Steeds: Flame Projection, Noxious Breath</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Extreme)</p><p><em>Attacks: 6D, Reach +1. Habitat: No natural habitat. Range: Throughout Europe. Member of the Wild Hunt (Appendix I). Shares the host's collective powers (see the Hound). 3D6 Initiative dice. Book Intelligence 2/6. PAE p.120.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/wild-hunt-steed.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

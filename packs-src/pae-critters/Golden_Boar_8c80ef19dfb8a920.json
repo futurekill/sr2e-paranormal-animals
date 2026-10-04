@@ -2,7 +2,7 @@
   "_id": "8c80ef19dfb8a920",
   "name": "Golden Boar",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/golden-boar.webp",
   "system": {
     "biography": "<p>An Awakened boar (Sus aureus) with golden tusks prized for enchanting — each male tusk is a unit of virgin telesma (two make a magical dagger).</p><p><strong>Powers:</strong> Concealment (Personal), Enhanced Physical Attributes (Quickness, 1×/day for [Essence]D6 turns), Magical Resistance, Regeneration</p><p><em>Attacks: 6M (tusks). Habitat: Heavy woodland, forest. Range: Scandinavia, northeastern Russia. 2D6 Initiative dice. A male tusk counts as 1 unit of enchanting material and lowers enchanting target numbers by 1 (Grimoire II). Book Body 6/1, Intelligence 2/5. PAE p.55.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/golden-boar.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

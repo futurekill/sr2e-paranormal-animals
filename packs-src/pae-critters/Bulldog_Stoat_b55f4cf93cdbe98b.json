@@ -2,7 +2,7 @@
   "_id": "b55f4cf93cdbe98b",
   "name": "Bulldog Stoat",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/bulldog-stoat.webp",
   "system": {
     "biography": "<p>A vicious little Awakened stoat (Mustela stalini) used as a security animal. On a damaging bite it fastens to the wound, dealing escalating damage (7L, 8L, 9L…) on action 3 + 1D6 turns until killed or sated with blood.</p><p><strong>Powers:</strong> Concealment (Personal), Enhanced Physical Attributes (Quickness, 2×/day for [Essence]D6 turns), Immunity to Pathogens, Immunity to Poisons</p><p><em>Attacks: 6L (latches onto the wound). Habitat: Woodland, hedgerows, grassland, rough grassland, moors. Range: Northern Europe, most common in Eastern Europe. 2D6 Initiative dice. Armor protects against the latched-on damage. Book Intelligence 2/4. PAE p.23.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/bulldog-stoat.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

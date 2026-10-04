@@ -2,7 +2,7 @@
   "_id": "98410dd277368204",
   "name": "Dakkaryne",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/dakkaryne.webp",
   "system": {
     "biography": "<p>A corrosive Awakened otter (Lutra ederis) of polluted waters, dissolving prey in acidic secretions. The old ones may possess shamanic talents.</p><p><strong>Powers:</strong> Alienation (Zone ×3), Corrosive Saliva, Corrosive Secretions, Engulf, Immunity to Pathogens, Immunity to Poisons, Search</p><p><strong>Weaknesses:</strong> Dietary Requirement (Dioxins, trace only)</p><p><em>Attacks: 6L, Reach −1. Habitat: Polluted acidic rivers, lakes, canals (not sea water). Range: Widespread throughout Europe. Swimming Quickness multiplier 5. 2D6 Initiative dice. Book Intelligence 2/4. PAE p.35.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/dakkaryne.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

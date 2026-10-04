@@ -2,7 +2,7 @@
   "_id": "38b4684c823b756a",
   "name": "Goblin",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/goblin.webp",
   "system": {
     "biography": "<p>A goblinized being (Homo bestius) created by a goblin-inducing HMHVV strain, spread directly from individual to individual. Drains Essence permanently.</p><p><strong>Powers:</strong> Enhanced Senses (Improved Smell & Taste), Essence Drain (Permanent), Fire Resistance</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Mild), Vulnerability (Iron)</p><p><em>Attacks: Humanoid (uses weapons). Habitat: Underground areas, urban or rural. Range: Throughout Europe, predominantly Great Britain and northern Europe, near dwarf populations. 2D6 Initiative dice. Book Intelligence 1/5. PAE p.53.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/goblin.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

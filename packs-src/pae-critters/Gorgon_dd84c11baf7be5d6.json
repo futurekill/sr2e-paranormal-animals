@@ -2,7 +2,7 @@
   "_id": "dd84c11baf7be5d6",
   "name": "Gorgon",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/gorgon.webp",
   "system": {
     "biography": "<p>A petrifying sea-dragon (Draco odiosus fabulosus). It walks up to a victim, petrifies them with its gaze, and pulls the head clean off.</p><p><strong>Powers:</strong> Electrical Projection, Noxious Breath, Paralyzing Touch, Petrification, Petrifying Gaze, Venom, Weather Control</p><p><strong>Weaknesses:</strong> Dietary Requirement (heavy petroleum oils)</p><p><em>Attacks: 8D, Reach +1. Habitat: Coastal waters. Range: Mediterranean and Black seas. Swimming Quickness multiplier 5. Book Body 11/2, Intelligence 2/4. PAE p.57.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/gorgon.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

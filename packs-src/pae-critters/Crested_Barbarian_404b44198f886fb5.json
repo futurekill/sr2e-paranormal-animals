@@ -2,7 +2,7 @@
   "_id": "404b44198f886fb5",
   "name": "Crested Barbarian",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/crested-barbarian.webp",
   "system": {
     "biography": "<p>An Awakened macaque (Macaca cristatus) with a vicious temperament; some carry a horrible plague virus (Pestilence). Several escaped the Cordoba labs in 2051.</p><p><strong>Powers:</strong> Enhanced Physical Attributes (Strength, 1×/day for [Essence+2]D6 turns), Enhanced Senses (Improved Smell, Low-Light Vision), Fear (LOS), Pestilence (roll 2D6; on a 6 the individual has this power)</p><p><em>Attacks: 4M. Habitat: Hills, barren lands, low mountain slopes. Range: Predominantly Spain; also southern Portugal, Gibraltar, southeast France, northwest Italy. Book Intelligence 2/3. PAE p.33.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/crested-barbarian.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

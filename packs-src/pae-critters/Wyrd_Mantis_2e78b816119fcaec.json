@@ -2,7 +2,7 @@
   "_id": "2e78b816119fcaec",
   "name": "Wyrd Mantis",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/wyrd-mantis.webp",
   "system": {
     "biography": "<p>A giant Awakened praying mantis (Mantis malus); the larger females are the dangerous ones, and insect shamans prize them.</p><p><strong>Powers:</strong> Adaptive Coloration (Selective), Enhanced Senses (Low-Light Vision), Enhanced Physical Attributes (Quickness, 3×/day for [Essence]D6 turns), Immunity to Poisons, Influence (females only, LOS), Venom</p><p><em>Attacks: 4M (female form; male 5L). Habitat: Woodland, forest. Range: Central and southern Europe. Stats are the female form. Male form: B1/1 Q4×4 S1 I1/4, 5L. Flying Quickness multiplier 4, but it can only fly once per hour for [Essence]D6 turns. Book Body 2/2 (female), Intelligence 2/5 (female). PAE p.113.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/wyrd-mantis.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

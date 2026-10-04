@@ -2,7 +2,7 @@
   "_id": "136a164021722785",
   "name": "Centaur",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/centaur.webp",
   "system": {
     "biography": "<p>A horse-bodied Awakened creature (Equus sagittarius); some are seen armed with polearms and armour near draco lairs.</p><p><strong>Powers:</strong> Enhanced Senses (Low-Light Vision, Thermographic Vision), Magic Sense, Search</p><p><em>Attacks: 6S, Reach +1. Habitat: Grasslands, moors, woodland, low-lying hills. Range: Greece, Macedonia, southern Albania. 2D6 Initiative dice. Book Intelligence 3/5. PAE p.27.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/centaur.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

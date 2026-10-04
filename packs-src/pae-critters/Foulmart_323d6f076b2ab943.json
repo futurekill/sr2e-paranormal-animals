@@ -2,7 +2,7 @@
   "_id": "323d6f076b2ab943",
   "name": "Foulmart",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/foulmart.webp",
   "system": {
     "biography": "<p>An Awakened polecat (Mustela putorius magnus) whose foul musk spray is harvested as an antipersonnel deterrent. The reek lingers for weeks and makes skin peel.</p><p><strong>Powers:</strong> Concealment (Personal), Spraying (Special, ¼ normal range)</p><p><em>Attacks: 4L, Reach −1 (bite). Habitat: Woodland, riverbanks, urban fringes. Range: Throughout Europe. 3D6 Initiative dice. The spray also blinds both natural and cyber eyes. Book Intelligence 2/4. PAE p.49.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/foulmart.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

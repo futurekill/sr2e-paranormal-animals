@@ -2,7 +2,7 @@
   "_id": "1f37685f8978adf9",
   "name": "Knocker",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/knocker.webp",
   "system": {
     "biography": "<p>A reclusive mining spirit (a knocker or rapper) that haunts mountains and mines, glamouring its territory and triggering 'accidental' rockfalls to drive off intruders.</p><p><strong>Powers:</strong> Accident (Zone), Control Resistance, Enhanced Physical Attributes (Strength & Body, 4×/day for [Essence×Essence] turns), Enhanced Senses (Low-Light Vision, Thermographic Vision), Fading, Glamour (Zone ×4; negate with TN [3×Essence]+2), Magic Sense, Magical Resistance, Masking</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Severe)</p><p><em>Attacks: 6L, Reach −1. Habitat: Inside mountains and hills, inside mines. Range: Throughout Europe. Avoids all contact with (meta)humanity. Some possess shamanic talents (earth/mountain spirits). Book Intelligence 3/5. PAE p.119.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/knocker.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

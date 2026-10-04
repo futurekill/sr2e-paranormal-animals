@@ -2,7 +2,7 @@
   "_id": "8874f5a7c4137b9f",
   "name": "Storm Dolphin",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/storm-dolphin.webp",
   "system": {
     "biography": "<p>An aggressive, militant Awakened dolphin (Delphinus periculosis); its pods strike back hard at those who foul the seas.</p><p><strong>Powers:</strong> Electrical Projection, Empathy (LOS), Engulf, Enhanced Physical Attributes (Body, 1×/day for [Essence]2D6 turns), Enhanced Senses (Sonar), Magical Resistance, Magic Sense, Movement, Weather Control</p><p><em>Attacks: 6L. Habitat: Temperate oceans and seas. Range: North, Irish and Baltic seas, western Atlantic, Black Sea (rare), Mediterranean (very rare). Communicates by sonar; manmade sonar within ¼ km disrupts it (+2 TN to Perception). Can distort sonar gear within (Essence)×20 m (+2 TN to sonar detection). Swimming Quickness multiplier. Book Intelligence 3/6. PAE p.99.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/storm-dolphin.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "23477ea9b70c254f",
   "name": "Vampiric Pawn",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/vampiric-pawn.webp",
   "system": {
     "biography": "<p>A thrall (no accepted taxonomy) made when a vampire or nosferatu drains a victim's Essence to 0 and feeds it their blood. It keeps its former self's attributes and serves its master.</p><p><strong>Powers:</strong> Immunity to Age, Immunity to Normal Weapons</p><p><strong>Weaknesses:</strong> Dietary Requirement (Essence from its vampire/nosferatu master), Essence Loss</p><p><em>Attacks: Humanoid. Habitat: With its vampiric/nosferatu master. Range: Throughout Europe. Attributes are the original character's, with minimums Strength 4 and Willpower 5; current Essence = 1D6 (minimum 2), suppliable by the master. Set its attributes to match the host. Gains 1 Essence per box of harm it makes a victim do under its master's influence; loses 1 Essence erratically (1D6 months). PAE p.105.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/vampiric-pawn.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

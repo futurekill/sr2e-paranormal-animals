@@ -2,7 +2,7 @@
   "_id": "7f23eda762af4551",
   "name": "Bayard",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/bayard.webp",
   "system": {
     "biography": "<p>A large magical horse (Equus maximus) that can painfully dissolve into mist. Prized by horseflesh merchants; peaceful and benign unless abused.</p><p><strong>Powers:</strong> Animal Control (Equines), Empathy (LOS), Enhanced Movement, Mist Form (adults only), Noxious Breath, Sonic Projection (stallions only)</p><p><em>Attacks: 7S, Reach +1 (hooves). Habitat: Grassy plains, low hills. Range: France, fringes of Franconia and northern Italy. Flying Quickness multiplier in mist form is 7; 2D6 Initiative dice. Book Intelligence 3/5. PAE p.15.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/bayard.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

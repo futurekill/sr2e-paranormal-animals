@@ -2,7 +2,7 @@
   "_id": "45fc0605965ab2ca",
   "name": "Corps Cadavre",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/corps-cadavre.webp",
   "system": {
     "biography": "<p>A zombie — an animated corpse conditioned for simple labour or security. It never tires and feels no pain, but is slow and only semi-intelligent.</p><p><strong>Powers:</strong> Immunity to Pathogens, Immunity to Poisons, Immunity to all mana spells and similar powers (empathy, hypnotic song, illusion, etc.)</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Severe)</p><p><em>Attacks: Humanoid (uses whatever weapon it is given). Habitat: No natural habitat. Range: Observed in southern France, northeastern Spain. Body and Strength are the original body's, −1 (minimum 1) — set them to match the corpse. Essence 0; takes no wound modifiers and ignores damage until a Deadly wound incapacitates it. PAE p.31.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/corps-cadavre.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

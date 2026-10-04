@@ -2,7 +2,7 @@
   "_id": "864890c1524248a8",
   "name": "European Gargoyle",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/european-gargoyle.webp",
   "system": {
     "biography": "<p>A stone-skinned winged gargoyle (Gargoyle saxsexus) that perches on tall derelict buildings. More dangerous the more it is injured.</p><p><strong>Powers:</strong> Concealment (Personal), Enhanced Physical Attributes (Strength, 1×/day for [Essence]D6 Combat Turns), Hardened Armor, Noxious Breath</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Nuisance), Vulnerability (Iron)</p><p><em>Attacks: 11S. Habitat: Tall buildings, usually derelict. Range: Rare throughout Europe; more common in Tir Nan Og and urban Germany. Flying Quickness multiplier is 4. 2D6 Initiative dice. Book Body 10/7 (Hardened Armor 7), Intelligence 2/5. PAE p.41.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/european-gargoyle.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

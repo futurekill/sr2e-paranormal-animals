@@ -2,7 +2,7 @@
   "_id": "c75b7a3143091e6b",
   "name": "Spitting Pike",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/spitting-pike.webp",
   "system": {
     "biography": "<p>A large predatory Awakened pike (Esox sputare) that spits corrosive saliva at prey before closing to bite and engulf.</p><p><strong>Powers:</strong> Corrosive Saliva, Engulf, Enhanced Physical Attributes (Strength, 1×/day for [Essence]3D6 turns), Enhanced Senses (Depth Perception)</p><p><em>Attacks: 5M bite (scales with size) + corrosive spit. Habitat: Freshwater lakes, rivers. Range: Europe. Body/Strength/bite scale with length: 0–1 m → B1 S1 4M; 1–2 m → B2 S2 5M; 2–3 m → B4 S3 6M; over 3 m → +1 each per ½ m (Body max 7, Strength max 6), bite 8M. Spits corrosive saliva to (Essence)×2 m (victim Quickness Test to dodge); Engulf only works on victims already hit by the saliva. 2D6 Initiative dice. Book Intelligence 1/4. PAE p.93.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/spitting-pike.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

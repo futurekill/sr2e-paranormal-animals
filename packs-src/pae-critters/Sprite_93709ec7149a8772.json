@@ -2,7 +2,7 @@
   "_id": "93709ec7149a8772",
   "name": "Sprite",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/sprite.webp",
   "system": {
     "biography": "<p>A tiny winged fairy (no accepted taxonomy) of Tir Nan Og, quick and elusive.</p><p><strong>Powers:</strong> Concealment (Personal)</p><p><em>Attacks: 1M. Habitat: Insufficient data. Range: Tir Nan Og. Flying Quickness multiplier 5. 2D6 Initiative dice. PAE p.95.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/sprite.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

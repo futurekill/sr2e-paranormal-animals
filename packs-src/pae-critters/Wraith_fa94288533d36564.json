@@ -2,7 +2,7 @@
   "_id": "fa94288533d36564",
   "name": "Wraith",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/wraith.webp",
   "system": {
     "biography": "<p>A malevolent free spirit (Umbra metuculosus) born of violence, haunting the places where it died and driving the living to harm one another.</p><p><strong>Powers:</strong> Confusion (Zone ×2), Fear (Zone ×2), Immunity to Pathogens, Immunity to Poisons, Influence (Zone ×2), Magical Resistance, Magic Sense, Manifestation</p><p><strong>Weaknesses:</strong> None known</p><p><em>Attacks: Special (harm via Influence). Habitat: Sites of violence, rural or urban. Range: Throughout Europe. Acts as a free spirit (Grimoire II) with a Spirit Energy Rating: it starts at 0 and rises 1 per box of Stun/Physical damage a victim under its Influence inflicts on another, up to 2× its Essence. Dual-natured (Essence 12 astral). PAE p.111.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/wraith.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

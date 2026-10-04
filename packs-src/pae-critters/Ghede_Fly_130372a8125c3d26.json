@@ -2,7 +2,7 @@
   "_id": "130372a8125c3d26",
   "name": "Ghede Fly",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/ghede-fly.webp",
   "system": {
     "biography": "<p>A giant Awakened biting fly (Culex pestilans). Females drain blood and Essence and carry a cyclical VITAS-related disease; males attack with mandibles.</p><p><strong>Powers:</strong> Males: Confusion (Zone ×2), Darkness, Enhanced Senses (Improved Smell, Sonar, Thermographic Vision), Immunity to Pathogens, Magic Sense, Search. Females: Essence Drain (Temporary), Immunity to Pathogens, Pestilence (roll 1D6; on a 6 the individual has it)</p><p><strong>Weaknesses:</strong> Dietary Requirement (Human/metahuman blood, females only)</p><p><em>Attacks: 2L female / 4L male, Reach −2. Habitat: Marshes, swamps, heavily polluted and slow-moving freshwater. Range: Throughout southern Europe. Flying Quickness multiplier 5. 2D6 Initiative dice. Females temporarily drain 1 Essence per wound; the drained point boosts that female's Body for [Essence]D6 turns. Book Body 1/1, Intelligence 1/5. PAE p.51.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/ghede-fly.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "01ad515daf58c340",
   "name": "Blackberry Cat",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/blackberry-cat.webp",
   "system": {
     "biography": "<p>A small, sly Awakened black cat (Felis nigra) that holds strong territorial ideas and toys with intruders using its mind-affecting powers. Sometimes kept as a (dangerous) pet.</p><p><strong>Powers:</strong> Accident (LOS), Adaptive Coloration, Blindness (LOS), Compulsion (LOS), Darkness, Desire Reflection (LOS), Enhanced Movement, Enhanced Reactions (for [Essence]D6 turns, 1D6 times/day), Enhanced Senses (Low-Light Vision), Hypnotic Howl (miaow, Zone ×2), Illusion (LOS)</p><p><strong>Weaknesses:</strong> Catnip (acts as a powerful intoxicant — see book)</p><p><em>Attacks: 6L, Reach −1 (claws). Habitat: Woodland, heaths, rocky hills, fringes of urban areas. Range: Throughout Europe, especially the U.K. and east-central Europe. 3D6 Initiative dice. Book Intelligence 3/8. PAE p.19.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/blackberry-cat.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

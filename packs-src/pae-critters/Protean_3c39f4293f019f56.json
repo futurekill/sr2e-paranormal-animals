@@ -2,7 +2,7 @@
   "_id": "3c39f4293f019f56",
   "name": "Protean",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/protean.webp",
   "system": {
     "biography": "<p>A giant corrosive amoeba (Entamoeba imitatrix) that engulfs and digests prey, mimicking its victims' appearance. It oozes through moist ground and splits when it grows too large.</p><p><strong>Powers:</strong> Adaptive Coloration (Selective), Corrosive Secretions, Engulf</p><p><strong>Weaknesses:</strong> Vulnerability (Alkaline chemical weapons, EM modulations, Fire)</p><p><em>Attacks: Special (Engulf). Habitat: Acidic lakes and rivers, marshes, swamps, any non-urban moist ground. Range: Throughout northern Europe. Mass 0.5–125 kg. Body is 0/1/2 by mass (<10 / 10–40 / 40+ kg); Strength is 0 under 40 kg, 1 above. Engulfed victims take Water-spell damage plus corrosion each turn. Impact/projectile weapons don't harm it; alkalis, fire and dehydration do. Book Intelligence 0/2. PAE p.83.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/protean.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

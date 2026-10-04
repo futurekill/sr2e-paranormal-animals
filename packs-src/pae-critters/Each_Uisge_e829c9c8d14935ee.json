@@ -2,7 +2,7 @@
   "_id": "e829c9c8d14935ee",
   "name": "Each-Uisge",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/each-uisge.webp",
   "system": {
     "biography": "<p>A man-eating water-horse of Scottish legend: it lures riders, then its highly adhesive skin traps them as it drags them under to drown and devour.</p><p><strong>Powers:</strong> Compulsion (LOS), Engulf, Enhanced Movement, Enhanced Senses (Low-Light Vision, Sonar)</p><p><strong>Weaknesses:</strong> Dietary Requirements (Human/Metahuman Flesh)</p><p><em>Attacks: 6S, Reach −1. Habitat: Freshwater rivers, lochs, lakes, estuaries and fjords (seawater-tolerant). Range: Rare throughout northern Europe, especially Scotland and Tir Nan Og. Anyone touching it makes a Strength Test (TN = its Essence) to free the affected body part or weapon. Swimming Quickness multiplier 5. 3D6 Initiative dice. Book Body 10/1 (Hardened Armor 1), Intelligence 2/4. PAE p.39.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/each-uisge.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

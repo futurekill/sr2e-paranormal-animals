@@ -2,7 +2,7 @@
   "_id": "7253c7f6d79901b2",
   "name": "Hydra Wyrm",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/hydra-wyrm.webp",
   "system": {
     "biography": "<p>A multi-headed aquatic wyrm (Pleuracanthus polycaput) that develops a taste for flesh and savages anyone near its waters.</p><p><strong>Powers:</strong> None</p><p><em>Attacks: 10M, Reach +2 (multiple heads). Habitat: Deep lakes, deep river estuaries (rare). Range: Greece. Attacks within a 4 m radius (neck length) with 1D6 randomly-chosen heads per Complex Action; destroying one head doesn't stop the others. No more than 2 bites on a single man-sized target per melee Action. Swimming Quickness multiplier 7. Book Body 12/2, Intelligence 1/3. PAE p.61.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/hydra-wyrm.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

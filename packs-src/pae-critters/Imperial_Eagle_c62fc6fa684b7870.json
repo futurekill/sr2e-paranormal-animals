@@ -2,7 +2,7 @@
   "_id": "c62fc6fa684b7870",
   "name": "Imperial Eagle",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/imperial-eagle.webp",
   "system": {
     "biography": "<p>A majestic Awakened eagle (Aquila augustus) revered as a wise 'Old One' and medicine-lodge spirit; it senses approaching storms.</p><p><strong>Powers:</strong> Empathy (LOS), Enhanced Senses (Depth Perception), Fire Resistance, Influence (LOS), Magical Resistance, Search, Weather Control</p><p><strong>Weaknesses:</strong> Vulnerability (Poisons)</p><p><em>Attacks: 5M (talons). Habitat: Hills, mountains, forests. Range: Europe. Flying Quickness multiplier 7. 3D6 Initiative dice. Book Intelligence 2/4. PAE p.63.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/imperial-eagle.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

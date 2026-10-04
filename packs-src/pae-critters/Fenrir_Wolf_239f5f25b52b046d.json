@@ -2,7 +2,7 @@
   "_id": "239f5f25b52b046d",
   "name": "Fenrir Wolf",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/fenrir-wolf.webp",
   "system": {
     "biography": "<p>A giant Norse wolf (Canis lupus aesir) of legend — fearsome, magically resistant, and most dangerous when wounded.</p><p><strong>Powers:</strong> Enhanced Physical Attributes (Strength, 2×/day for [Essence]2D6 turns), Enhanced Senses (Improved Hearing & Smell, Low-Light Vision), Fear (Zone ×3), Magical Resistance</p><p><em>Attacks: 10S (bite). Habitat: Forests and heavy woodlands. Range: Scandinavia, far eastern Europe, Germany (very rare). 2D6 Initiative dice. Book Intelligence 2/5. PAE p.43.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/fenrir-wolf.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,

@@ -2,7 +2,7 @@
   "_id": "ccf7df36547e1d38",
   "name": "Kludde",
   "type": "npc",
-  "img": "icons/svg/pawprint.svg",
+  "img": "modules/sr2e-paranormal-animals/assets/creature_portraits/kludde.webp",
   "system": {
     "biography": "<p>A Belgian shapeshifting spirit (no accepted taxonomy) with three forms — avian, canine, and feline. Dogs and cats always know it for what it is.</p><p><strong>Powers:</strong> Alienation (LOS), Blindness (LOS), Desire Reflection (LOS), Fear (LOS, canine form only), Hypnotic Song (Zone ×4, avian form only), Magical Resistance, Magic Sense, Psychokinesis</p><p><strong>Weaknesses:</strong> Allergy (Sunlight, Nuisance)</p><p><em>Attacks: 5M (canine form). Habitat: Urban fringes, plains, grassland, light woodland. Range: Belgium and the fringes of surrounding countries. Stats here are the canine form. Forms (all I2/4 W6 E7 R4**): Avian B3 Q6×3 S2, 6L Reach −1, fly ×6; Canine B5 Q6×6 S4, 5M; Feline B2 Q6×4 S1, 4L Reach −1. 3D6 Initiative dice. PAE p.67.</em></p>",
     "race": "critter",
@@ -122,8 +122,9 @@
     "actorLink": false,
     "width": 1,
     "height": 1,
+    "lockRotation": true,
     "texture": {
-      "src": "icons/svg/pawprint.svg",
+      "src": "modules/sr2e-paranormal-animals/assets/creature_portraits/kludde.webp",
       "anchorX": 0.5,
       "anchorY": 0.5,
       "offsetX": 0,
